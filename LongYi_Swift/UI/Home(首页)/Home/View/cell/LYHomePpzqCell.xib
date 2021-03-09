@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Z4o-Rv-pI6" customClass="LYHomePpzqCell" customModule="LongYi_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="206"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="K4i-Fp-PGN">
+                        <rect key="frame" x="0.0" y="0.0" width="473" height="206"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pfS-qm-jKy">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="Wjz-AI-bSc"/>
+            <constraints>
+                <constraint firstItem="K4i-Fp-PGN" firstAttribute="leading" secondItem="Z4o-Rv-pI6" secondAttribute="leading" id="4Z0-cb-faE"/>
+                <constraint firstItem="K4i-Fp-PGN" firstAttribute="top" secondItem="Z4o-Rv-pI6" secondAttribute="top" id="Ijh-qj-8fn"/>
+                <constraint firstAttribute="trailing" secondItem="K4i-Fp-PGN" secondAttribute="trailing" id="Ilx-ws-282"/>
+                <constraint firstAttribute="bottom" secondItem="K4i-Fp-PGN" secondAttribute="bottom" id="gQQ-lS-kJD"/>
+            </constraints>
+            <size key="customSize" width="482" height="266"/>
+            <connections>
+                <outlet property="collectionView" destination="K4i-Fp-PGN" id="7RV-35-nIv"/>
+                <outlet property="layout" destination="pfS-qm-jKy" id="gdJ-Mf-pPd"/>
+            </connections>
+            <point key="canvasLocation" x="251.44927536231887" y="171.42857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

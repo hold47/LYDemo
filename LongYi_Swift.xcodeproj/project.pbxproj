@@ -1,0 +1,2666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B127255254ECE07008E26F2 /* LYMultiRegisterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B127254254ECE07008E26F2 /* LYMultiRegisterInfoView.swift */; };
+		6B127258254ECE1A008E26F2 /* LYMultiRegisterInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B127257254ECE1A008E26F2 /* LYMultiRegisterInfoView.xib */; };
+		6B127263254EDF0C008E26F2 /* LYMultiRegisterInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B127261254EDF0C008E26F2 /* LYMultiRegisterInfoCell.swift */; };
+		6B127264254EDF0C008E26F2 /* LYMultiRegisterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B127262254EDF0C008E26F2 /* LYMultiRegisterInfoCell.xib */; };
+		6B127267254EE9C1008E26F2 /* LYAccountShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B127266254EE9C1008E26F2 /* LYAccountShopModel.swift */; };
+		6B12726D254F15DD008E26F2 /* LYMultiRegisterSuccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12726C254F15DD008E26F2 /* LYMultiRegisterSuccessController.swift */; };
+		6B127271254F162A008E26F2 /* LYMultiRegisterSuccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B127270254F162A008E26F2 /* LYMultiRegisterSuccessViewModel.swift */; };
+		6B127275254F1698008E26F2 /* LYMultiRegisterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B127274254F1698008E26F2 /* LYMultiRegisterHeaderView.swift */; };
+		6B127278254F16A7008E26F2 /* LYMultiRegisterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B127277254F16A7008E26F2 /* LYMultiRegisterHeaderView.xib */; };
+		6B12727B254F16D7008E26F2 /* LYMultiRegisterFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12727A254F16D7008E26F2 /* LYMultiRegisterFooterView.swift */; };
+		6B12727E254F16F3008E26F2 /* LYMultiRegisterFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B12727D254F16F3008E26F2 /* LYMultiRegisterFooterView.xib */; };
+		6B19DF4825465BB8006F3EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B19DF4725465BB8006F3EE3 /* AppDelegate.swift */; };
+		6B19DF5125465BBA006F3EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B19DF5025465BBA006F3EE3 /* Assets.xcassets */; };
+		6B19DF5425465BBA006F3EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B19DF5225465BBA006F3EE3 /* LaunchScreen.storyboard */; };
+		6B1B4B9B2579CB2700663C68 /* LYAddCartParameterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B4B9A2579CB2700663C68 /* LYAddCartParameterModel.swift */; };
+		6B2309C52574D7BE003CFB53 /* LYGoodsGuigeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2309C32574D7BE003CFB53 /* LYGoodsGuigeCell.swift */; };
+		6B2309C62574D7BE003CFB53 /* LYGoodsGuigeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2309C42574D7BE003CFB53 /* LYGoodsGuigeCell.xib */; };
+		6B2309CB2575C7A7003CFB53 /* LYGoodsTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2309C92575C7A7003CFB53 /* LYGoodsTagCell.swift */; };
+		6B2309CC2575C7A7003CFB53 /* LYGoodsTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2309CA2575C7A7003CFB53 /* LYGoodsTagCell.xib */; };
+		6B2309E52575EA3C003CFB53 /* LYGoodsQuanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2309E32575EA3C003CFB53 /* LYGoodsQuanCell.swift */; };
+		6B2309E62575EA3C003CFB53 /* LYGoodsQuanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2309E42575EA3C003CFB53 /* LYGoodsQuanCell.xib */; };
+		6B230A1F257618B9003CFB53 /* LYGoodsQuanItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B230A1D257618B9003CFB53 /* LYGoodsQuanItemCell.swift */; };
+		6B230A20257618B9003CFB53 /* LYGoodsQuanItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B230A1E257618B9003CFB53 /* LYGoodsQuanItemCell.xib */; };
+		6B28383B25F1CD08001E26AB /* LYHomeCjthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28383925F1CD08001E26AB /* LYHomeCjthCell.swift */; };
+		6B28383C25F1CD08001E26AB /* LYHomeCjthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B28383A25F1CD08001E26AB /* LYHomeCjthCell.xib */; };
+		6B28385D25F209C4001E26AB /* LYHomeNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28385B25F209C4001E26AB /* LYHomeNormalFooter.swift */; };
+		6B28385E25F209C4001E26AB /* LYHomeNormalFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B28385C25F209C4001E26AB /* LYHomeNormalFooter.xib */; };
+		6B28386225F2151F001E26AB /* LYHomeRoundHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28386025F2151F001E26AB /* LYHomeRoundHeader.swift */; };
+		6B28386325F2151F001E26AB /* LYHomeRoundHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B28386125F2151F001E26AB /* LYHomeRoundHeader.xib */; };
+		6B28386725F21D6C001E26AB /* LYHomeCjthGoodsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28386525F21D6C001E26AB /* LYHomeCjthGoodsItemCell.swift */; };
+		6B28386825F21D6C001E26AB /* LYHomeCjthGoodsItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B28386625F21D6C001E26AB /* LYHomeCjthGoodsItemCell.xib */; };
+		6B28387525F2203D001E26AB /* LYHomeCjthGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28387325F2203D001E26AB /* LYHomeCjthGoodsCell.swift */; };
+		6B28387625F2203D001E26AB /* LYHomeCjthGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B28387425F2203D001E26AB /* LYHomeCjthGoodsCell.xib */; };
+		6B2F1E71256C970600747B25 /* LYYaojuhuiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1E70256C970600747B25 /* LYYaojuhuiController.swift */; };
+		6B2F1E78256C98B500747B25 /* LYYaojuhuiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1E77256C98B500747B25 /* LYYaojuhuiView.swift */; };
+		6B2F1E98256CA51F00747B25 /* LYYaojuhuiHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1E96256CA51F00747B25 /* LYYaojuhuiHeader.swift */; };
+		6B2F1E99256CA51F00747B25 /* LYYaojuhuiHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2F1E97256CA51F00747B25 /* LYYaojuhuiHeader.xib */; };
+		6B2F1E9C256CA6BE00747B25 /* LYYaojuhuiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1E9B256CA6BE00747B25 /* LYYaojuhuiViewModel.swift */; };
+		6B3814F5256E41200026F2A7 /* LYYxbpYxttCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3814F3256E41200026F2A7 /* LYYxbpYxttCell.swift */; };
+		6B3814F6256E41200026F2A7 /* LYYxbpYxttCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B3814F4256E41200026F2A7 /* LYYxbpYxttCell.xib */; };
+		6B3814FA256E472D0026F2A7 /* LYYxbpNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3814F8256E472D0026F2A7 /* LYYxbpNormalHeader.swift */; };
+		6B3814FB256E472D0026F2A7 /* LYYxbpNormalHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B3814F9256E472D0026F2A7 /* LYYxbpNormalHeader.xib */; };
+		6B3814FF256E55F80026F2A7 /* LYYxbpYxtjCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3814FD256E55F80026F2A7 /* LYYxbpYxtjCell.swift */; };
+		6B381500256E55F90026F2A7 /* LYYxbpYxtjCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B3814FE256E55F80026F2A7 /* LYYxbpYxtjCell.xib */; };
+		6B381504256E59B30026F2A7 /* LYYxbpMoreYxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B381502256E59B30026F2A7 /* LYYxbpMoreYxCell.swift */; };
+		6B381505256E59B30026F2A7 /* LYYxbpMoreYxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B381503256E59B30026F2A7 /* LYYxbpMoreYxCell.xib */; };
+		6B4042EA2574847300252421 /* LYGoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4042E92574847300252421 /* LYGoodsView.swift */; };
+		6B4042EE2574942800252421 /* LYGoodsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4042EC2574942800252421 /* LYGoodsBannerCell.swift */; };
+		6B4042EF2574942800252421 /* LYGoodsBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4042ED2574942800252421 /* LYGoodsBannerCell.xib */; };
+		6B45DEE8254BAD450063FC57 /* LYRegisterInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DEE7254BAD450063FC57 /* LYRegisterInfoViewModel.swift */; };
+		6B45DEEC254BB00F0063FC57 /* LYAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DEEB254BB00F0063FC57 /* LYAccountModel.swift */; };
+		6B45DF0B254BFB530063FC57 /* LYRegisterSuccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF0A254BFB530063FC57 /* LYRegisterSuccessController.swift */; };
+		6B45DF0F254BFB940063FC57 /* LYRegisterSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF0E254BFB940063FC57 /* LYRegisterSuccessView.swift */; };
+		6B45DF13254BFB9C0063FC57 /* LYRegisterSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B45DF12254BFB9C0063FC57 /* LYRegisterSuccessView.xib */; };
+		6B45DF17254BFF970063FC57 /* LYRegisterSuccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF16254BFF970063FC57 /* LYRegisterSuccessViewModel.swift */; };
+		6B45DF1E254C0FB10063FC57 /* LYRegisterProtocalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF1C254C0FB10063FC57 /* LYRegisterProtocalController.swift */; };
+		6B45DF1F254C0FB10063FC57 /* LYRegisterProtocalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B45DF1D254C0FB10063FC57 /* LYRegisterProtocalController.xib */; };
+		6B45DF24254C10980063FC57 /* LYRegisterProtocalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF23254C10980063FC57 /* LYRegisterProtocalViewModel.swift */; };
+		6B45DF27254C12BB0063FC57 /* API+NewsCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DF26254C12BB0063FC57 /* API+NewsCenter.swift */; };
+		6B4E6FBC255128F20040DE31 /* LYForgetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FBB255128F20040DE31 /* LYForgetPasswordController.swift */; };
+		6B4E6FBF255129190040DE31 /* LYForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FBE255129190040DE31 /* LYForgetPasswordView.swift */; };
+		6B4E6FC22551292B0040DE31 /* LYForgetPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E6FC12551292B0040DE31 /* LYForgetPasswordView.xib */; };
+		6B4E6FC525512C5C0040DE31 /* LYForgetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FC425512C5C0040DE31 /* LYForgetPasswordViewModel.swift */; };
+		6B4E6FC825513E9E0040DE31 /* LYForgetPasswordSetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FC725513E9E0040DE31 /* LYForgetPasswordSetController.swift */; };
+		6B4E6FCB25513EB20040DE31 /* LYForgetPasswordSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FCA25513EB20040DE31 /* LYForgetPasswordSetView.swift */; };
+		6B4E6FCE25513EBC0040DE31 /* LYForgetPasswordSetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E6FCD25513EBC0040DE31 /* LYForgetPasswordSetView.xib */; };
+		6B4E6FD125514B960040DE31 /* LYForgetPasswordSuccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FD025514B960040DE31 /* LYForgetPasswordSuccessController.swift */; };
+		6B4E6FD425514BAD0040DE31 /* LYForgetPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E6FD325514BAD0040DE31 /* LYForgetPasswordSuccessView.swift */; };
+		6B4E6FD725514BBB0040DE31 /* LYForgetPasswordSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E6FD625514BBB0040DE31 /* LYForgetPasswordSuccessView.xib */; };
+		6B4EA03125466BC1006B3E9E /* LYNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA02E25466BC1006B3E9E /* LYNotificationName.swift */; };
+		6B4EA03225466BC1006B3E9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA02F25466BC1006B3E9E /* Constant.swift */; };
+		6B4EA03325466BC1006B3E9E /* ImportFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03025466BC1006B3E9E /* ImportFiles.swift */; };
+		6B4EA03E25466BDD006B3E9E /* API+Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03525466BDC006B3E9E /* API+Cart.swift */; };
+		6B4EA04025466BDD006B3E9E /* LYRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03825466BDD006B3E9E /* LYRequestError.swift */; };
+		6B4EA04125466BDD006B3E9E /* API+MapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03925466BDD006B3E9E /* API+MapObject.swift */; };
+		6B4EA04225466BDD006B3E9E /* API+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03A25466BDD006B3E9E /* API+Base.swift */; };
+		6B4EA04325466BDD006B3E9E /* API+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03B25466BDD006B3E9E /* API+User.swift */; };
+		6B4EA04425466BDD006B3E9E /* API+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03C25466BDD006B3E9E /* API+Order.swift */; };
+		6B4EA04525466BDD006B3E9E /* API+Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA03D25466BDD006B3E9E /* API+Goods.swift */; };
+		6B4EA05F25466BF4006B3E9E /* Common+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04825466BF4006B3E9E /* Common+Functions.swift */; };
+		6B4EA06025466BF4006B3E9E /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04925466BF4006B3E9E /* Int+extension.swift */; };
+		6B4EA06125466BF4006B3E9E /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04A25466BF4006B3E9E /* Date+extension.swift */; };
+		6B4EA06225466BF4006B3E9E /* Optional+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04B25466BF4006B3E9E /* Optional+extension.swift */; };
+		6B4EA06325466BF4006B3E9E /* String+BankName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04C25466BF4006B3E9E /* String+BankName.swift */; };
+		6B4EA06425466BF4006B3E9E /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04D25466BF4006B3E9E /* String+extension.swift */; };
+		6B4EA06525466BF4006B3E9E /* GCD+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04E25466BF4006B3E9E /* GCD+extension.swift */; };
+		6B4EA06625466BF4006B3E9E /* File+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA04F25466BF4006B3E9E /* File+extension.swift */; };
+		6B4EA06725466BF4006B3E9E /* Model+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05025466BF4006B3E9E /* Model+extension.swift */; };
+		6B4EA06825466BF4006B3E9E /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05225466BF4006B3E9E /* UIImageView+extension.swift */; };
+		6B4EA06925466BF4006B3E9E /* UIFont+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05325466BF4006B3E9E /* UIFont+extension.swift */; };
+		6B4EA06A25466BF4006B3E9E /* UIWindow+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05425466BF4006B3E9E /* UIWindow+extension.swift */; };
+		6B4EA06B25466BF4006B3E9E /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05525466BF4006B3E9E /* UILabel+extension.swift */; };
+		6B4EA06C25466BF4006B3E9E /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05625466BF4006B3E9E /* UIButton+extension.swift */; };
+		6B4EA06D25466BF4006B3E9E /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05725466BF4006B3E9E /* UIView+extension.swift */; };
+		6B4EA06E25466BF4006B3E9E /* UIButton+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05825466BF4006B3E9E /* UIButton+Count.swift */; };
+		6B4EA06F25466BF4006B3E9E /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05925466BF4006B3E9E /* UIImage+extension.swift */; };
+		6B4EA07025466BF4006B3E9E /* UIBarButtonItem+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05A25466BF4006B3E9E /* UIBarButtonItem+extension.swift */; };
+		6B4EA07125466BF4006B3E9E /* UIScrollView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05B25466BF4006B3E9E /* UIScrollView+extension.swift */; };
+		6B4EA07225466BF4006B3E9E /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05C25466BF4006B3E9E /* UITextField+extension.swift */; };
+		6B4EA07325466BF4006B3E9E /* UIViewController+WL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05D25466BF4006B3E9E /* UIViewController+WL.swift */; };
+		6B4EA07425466BF4006B3E9E /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA05E25466BF4006B3E9E /* UITableView+extension.swift */; };
+		6B4EA0B425466C15006B3E9E /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA07725466C13006B3E9E /* MBProgressHUD.swift */; };
+		6B4EA0B525466C15006B3E9E /* LYDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA07925466C13006B3E9E /* LYDatePickerView.xib */; };
+		6B4EA0B625466C15006B3E9E /* LYDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA07A25466C13006B3E9E /* LYDatePickerView.swift */; };
+		6B4EA0B725466C15006B3E9E /* YSModal_presentedNavC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA07C25466C13006B3E9E /* YSModal_presentedNavC.swift */; };
+		6B4EA0B825466C15006B3E9E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA07E25466C13006B3E9E /* LICENSE */; };
+		6B4EA0B925466C15006B3E9E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA07F25466C13006B3E9E /* README.md */; };
+		6B4EA0BA25466C15006B3E9E /* YSLoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08425466C13006B3E9E /* YSLoadingIndicatorView.swift */; };
+		6B4EA0BB25466C15006B3E9E /* YSLoadingIndicatorView_default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08525466C13006B3E9E /* YSLoadingIndicatorView_default.swift */; };
+		6B4EA0BC25466C15006B3E9E /* YSBaseV_loadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08625466C13006B3E9E /* YSBaseV_loadingIndicator.swift */; };
+		6B4EA0BD25466C15006B3E9E /* YSBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08825466C13006B3E9E /* YSBaseVC.swift */; };
+		6B4EA0BE25466C15006B3E9E /* YSBaseCell_tbv_subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08A25466C13006B3E9E /* YSBaseCell_tbv_subtitle.swift */; };
+		6B4EA0BF25466C15006B3E9E /* YSBaseCell_tbv_value2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08B25466C13006B3E9E /* YSBaseCell_tbv_value2.swift */; };
+		6B4EA0C025466C15006B3E9E /* YSBaseCell_colv_headerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08C25466C13006B3E9E /* YSBaseCell_colv_headerFooter.swift */; };
+		6B4EA0C125466C15006B3E9E /* YSBaseCell_colv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08D25466C13006B3E9E /* YSBaseCell_colv.swift */; };
+		6B4EA0C225466C15006B3E9E /* YSBaseCell_tbv_default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08E25466C13006B3E9E /* YSBaseCell_tbv_default.swift */; };
+		6B4EA0C325466C15006B3E9E /* YSBaseCell_tbv_value1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA08F25466C13006B3E9E /* YSBaseCell_tbv_value1.swift */; };
+		6B4EA0C425466C15006B3E9E /* YSModal_animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09025466C13006B3E9E /* YSModal_animator.swift */; };
+		6B4EA0C525466C15006B3E9E /* YSModal_direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09125466C13006B3E9E /* YSModal_direction.swift */; };
+		6B4EA0C625466C15006B3E9E /* YSModal_presentingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09225466C13006B3E9E /* YSModal_presentingVC.swift */; };
+		6B4EA0C725466C15006B3E9E /* YSModal_presentedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09325466C13006B3E9E /* YSModal_presentedVC.swift */; };
+		6B4EA0C825466C15006B3E9E /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09525466C14006B3E9E /* DefaultKeys.swift */; };
+		6B4EA0C925466C15006B3E9E /* PlistProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09625466C14006B3E9E /* PlistProperty.swift */; };
+		6B4EA0CA25466C15006B3E9E /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09725466C14006B3E9E /* Plist.swift */; };
+		6B4EA0CB25466C15006B3E9E /* HeaderLoading.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA09925466C14006B3E9E /* HeaderLoading.xib */; };
+		6B4EA0CC25466C15006B3E9E /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09A25466C14006B3E9E /* RefreshHeader.swift */; };
+		6B4EA0CD25466C15006B3E9E /* HeaderLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09B25466C14006B3E9E /* HeaderLoading.swift */; };
+		6B4EA0CE25466C15006B3E9E /* ExpandClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09D25466C14006B3E9E /* ExpandClickButton.swift */; };
+		6B4EA0CF25466C15006B3E9E /* SortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA09F25466C14006B3E9E /* SortButton.swift */; };
+		6B4EA0D025466C15006B3E9E /* YXCityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A125466C14006B3E9E /* YXCityModel.swift */; };
+		6B4EA0D125466C15006B3E9E /* YXPickerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A225466C14006B3E9E /* YXPickerListCell.swift */; };
+		6B4EA0D225466C15006B3E9E /* YXPickerTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A325466C14006B3E9E /* YXPickerTitleCell.swift */; };
+		6B4EA0D325466C15006B3E9E /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A425466C14006B3E9E /* city.json */; };
+		6B4EA0D425466C15006B3E9E /* YXCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A525466C14006B3E9E /* YXCompatible.swift */; };
+		6B4EA0D525466C15006B3E9E /* YXPickerTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A625466C14006B3E9E /* YXPickerTitleView.swift */; };
+		6B4EA0D625466C15006B3E9E /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A725466C14006B3E9E /* UIView-Extension.swift */; };
+		6B4EA0D725466C15006B3E9E /* YXPickerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A825466C14006B3E9E /* YXPickerListView.swift */; };
+		6B4EA0D825466C15006B3E9E /* YXAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA0A925466C14006B3E9E /* YXAssets.xcassets */; };
+		6B4EA0D925466C15006B3E9E /* YXChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0AA25466C14006B3E9E /* YXChooseView.swift */; };
+		6B4EA0DA25466C15006B3E9E /* Marquee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0AC25466C14006B3E9E /* Marquee.swift */; };
+		6B4EA0DB25466C15006B3E9E /* LYAnnounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0AD25466C14006B3E9E /* LYAnnounceView.swift */; };
+		6B4EA0DC25466C15006B3E9E /* QRCodeScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0AF25466C15006B3E9E /* QRCodeScannerController.swift */; };
+		6B4EA0DD25466C15006B3E9E /* OpenCameraAndAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0B125466C15006B3E9E /* OpenCameraAndAlbum.swift */; };
+		6B4EA0DE25466C15006B3E9E /* LYAddMinusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0B325466C15006B3E9E /* LYAddMinusView.swift */; };
+		6B4EA0E325466C23006B3E9E /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0E125466C23006B3E9E /* UserPreference.swift */; };
+		6B4EA0E425466C23006B3E9E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0E225466C23006B3E9E /* UserModel.swift */; };
+		6B4EA18325466C37006B3E9E /* LYHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0E825466C36006B3E9E /* LYHomeController.swift */; };
+		6B4EA18425466C37006B3E9E /* LYHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0EA25466C36006B3E9E /* LYHomeViewModel.swift */; };
+		6B4EA18B25466C37006B3E9E /* LYModalCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0F425466C36006B3E9E /* LYModalCartViewModel.swift */; };
+		6B4EA18C25466C37006B3E9E /* LYModalCartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA0F625466C36006B3E9E /* LYModalCartView.xib */; };
+		6B4EA18D25466C37006B3E9E /* LYModalCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0F725466C36006B3E9E /* LYModalCartView.swift */; };
+		6B4EA18E25466C37006B3E9E /* LYModalCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0F825466C36006B3E9E /* LYModalCartController.swift */; };
+		6B4EA18F25466C37006B3E9E /* LYModalSortCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0FB25466C36006B3E9E /* LYModalSortCategoryViewModel.swift */; };
+		6B4EA19025466C37006B3E9E /* LYModalSortController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA0FC25466C36006B3E9E /* LYModalSortController.xib */; };
+		6B4EA19125466C37006B3E9E /* LYGoodsCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA0FE25466C36006B3E9E /* LYGoodsCategoryModel.swift */; };
+		6B4EA19225466C37006B3E9E /* LYModalSortRightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA10025466C36006B3E9E /* LYModalSortRightCell.swift */; };
+		6B4EA19325466C37006B3E9E /* LYModalSortLeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA10125466C36006B3E9E /* LYModalSortLeftCell.xib */; };
+		6B4EA19425466C37006B3E9E /* LYModalSortRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA10225466C36006B3E9E /* LYModalSortRightCell.xib */; };
+		6B4EA19525466C37006B3E9E /* LYModalSortLeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA10325466C36006B3E9E /* LYModalSortLeftCell.swift */; };
+		6B4EA19625466C37006B3E9E /* LYModalSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA10425466C36006B3E9E /* LYModalSortController.swift */; };
+		6B4EA19725466C37006B3E9E /* LYGoodsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA10625466C36006B3E9E /* LYGoodsSearchController.swift */; };
+		6B4EA1A125466C37006B3E9E /* LYGoodsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA11825466C36006B3E9E /* LYGoodsViewModel.swift */; };
+		6B4EA1A425466C37006B3E9E /* LYGoodsCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA11C25466C36006B3E9E /* LYGoodsCartView.swift */; };
+		6B4EA1A525466C37006B3E9E /* LYGoodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA11D25466C36006B3E9E /* LYGoodsController.swift */; };
+		6B4EA1AD25466C37006B3E9E /* LYCartOrderConfirmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA12C25466C36006B3E9E /* LYCartOrderConfirmViewModel.swift */; };
+		6B4EA1AE25466C37006B3E9E /* LYCartOrderCommitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA12E25466C36006B3E9E /* LYCartOrderCommitModel.swift */; };
+		6B4EA1AF25466C37006B3E9E /* LYCartOrderConfirmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA12F25466C36006B3E9E /* LYCartOrderConfirmController.xib */; };
+		6B4EA1B025466C37006B3E9E /* LYCartOrderConfirmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA13125466C36006B3E9E /* LYCartOrderConfirmCell.xib */; };
+		6B4EA1B125466C37006B3E9E /* LYCartOrderConfirmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13225466C36006B3E9E /* LYCartOrderConfirmCell.swift */; };
+		6B4EA1B225466C37006B3E9E /* LYCartOrderConfirmFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13325466C36006B3E9E /* LYCartOrderConfirmFooter.swift */; };
+		6B4EA1B325466C37006B3E9E /* LYCartOrderConfirmFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA13425466C36006B3E9E /* LYCartOrderConfirmFooter.xib */; };
+		6B4EA1B425466C37006B3E9E /* LYCartOrderConfirmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13525466C36006B3E9E /* LYCartOrderConfirmController.swift */; };
+		6B4EA1B525466C37006B3E9E /* LYCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13825466C36006B3E9E /* LYCartViewModel.swift */; };
+		6B4EA1B725466C37006B3E9E /* LYCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13A25466C36006B3E9E /* LYCartController.swift */; };
+		6B4EA1B825466C37006B3E9E /* LYCartCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13C25466C36006B3E9E /* LYCartCheckModel.swift */; };
+		6B4EA1B925466C37006B3E9E /* LYCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA13E25466C36006B3E9E /* LYCartCell.xib */; };
+		6B4EA1BA25466C37006B3E9E /* LYCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA13F25466C36006B3E9E /* LYCartCell.swift */; };
+		6B4EA1BB25466C37006B3E9E /* LYCartOrderSuccessController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA14125466C36006B3E9E /* LYCartOrderSuccessController.xib */; };
+		6B4EA1BC25466C37006B3E9E /* LYCartOrderSuccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14225466C36006B3E9E /* LYCartOrderSuccessController.swift */; };
+		6B4EA1BD25466C37006B3E9E /* LYAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14425466C36006B3E9E /* LYAddressModel.swift */; };
+		6B4EA1BE25466C37006B3E9E /* LYGoodsTagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14525466C36006B3E9E /* LYGoodsTagModel.swift */; };
+		6B4EA1BF25466C37006B3E9E /* LYGoodsImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14625466C36006B3E9E /* LYGoodsImageModel.swift */; };
+		6B4EA1C025466C37006B3E9E /* LYGoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14725466C36006B3E9E /* LYGoodsModel.swift */; };
+		6B4EA1C125466C37006B3E9E /* LYPaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14825466C36006B3E9E /* LYPaymentModel.swift */; };
+		6B4EA1C225466C37006B3E9E /* LYClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14925466C36006B3E9E /* LYClientModel.swift */; };
+		6B4EA1C325466C37006B3E9E /* LYGoodsSearchParameterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14A25466C36006B3E9E /* LYGoodsSearchParameterModel.swift */; };
+		6B4EA1C425466C37006B3E9E /* LYLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA14D25466C37006B3E9E /* LYLoginViewModel.swift */; };
+		6B4EA1C625466C37006B3E9E /* LYLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15025466C37006B3E9E /* LYLoginController.swift */; };
+		6B4EA1C725466C37006B3E9E /* LYAccountManageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA15325466C37006B3E9E /* LYAccountManageController.xib */; };
+		6B4EA1C825466C37006B3E9E /* LYAccountManageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15425466C37006B3E9E /* LYAccountManageController.swift */; };
+		6B4EA1C925466C37006B3E9E /* LYMineModifyPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15725466C37006B3E9E /* LYMineModifyPasswordViewModel.swift */; };
+		6B4EA1CA25466C37006B3E9E /* LYMineModifyPasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA15825466C37006B3E9E /* LYMineModifyPasswordController.xib */; };
+		6B4EA1CB25466C37006B3E9E /* LYMineModifyPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15925466C37006B3E9E /* LYMineModifyPasswordController.swift */; };
+		6B4EA1CC25466C37006B3E9E /* LYMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15C25466C37006B3E9E /* LYMineViewModel.swift */; };
+		6B4EA1CD25466C37006B3E9E /* LYMineOrderHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15E25466C37006B3E9E /* LYMineOrderHeaderModel.swift */; };
+		6B4EA1CE25466C37006B3E9E /* LYMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA15F25466C37006B3E9E /* LYMineController.swift */; };
+		6B4EA1CF25466C37006B3E9E /* LYMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA16025466C37006B3E9E /* LYMineController.xib */; };
+		6B4EA1D025466C37006B3E9E /* ErrorProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16225466C37006B3E9E /* ErrorProtocal.swift */; };
+		6B4EA1D125466C37006B3E9E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16325466C37006B3E9E /* BaseViewController.swift */; };
+		6B4EA1D225466C37006B3E9E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16425466C37006B3E9E /* BaseTableViewCell.swift */; };
+		6B4EA1D325466C37006B3E9E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16525466C37006B3E9E /* BaseViewModel.swift */; };
+		6B4EA1D425466C37006B3E9E /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16625466C37006B3E9E /* BaseCollectionViewCell.swift */; };
+		6B4EA1D525466C37006B3E9E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16725466C37006B3E9E /* BaseNavigationController.swift */; };
+		6B4EA1D625466C37006B3E9E /* LYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16925466C37006B3E9E /* LYTabBarController.swift */; };
+		6B4EA1D725466C37006B3E9E /* LYOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16D25466C37006B3E9E /* LYOrderViewModel.swift */; };
+		6B4EA1D825466C37006B3E9E /* LYOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA16F25466C37006B3E9E /* LYOrderModel.swift */; };
+		6B4EA1D925466C37006B3E9E /* LYOrderGoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17025466C37006B3E9E /* LYOrderGoodModel.swift */; };
+		6B4EA1DA25466C37006B3E9E /* LYOrderSearchParameterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17125466C37006B3E9E /* LYOrderSearchParameterModel.swift */; };
+		6B4EA1DB25466C37006B3E9E /* LYOrderSelectSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA17325466C37006B3E9E /* LYOrderSelectSearchView.xib */; };
+		6B4EA1DC25466C37006B3E9E /* LYOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17425466C37006B3E9E /* LYOrderCell.swift */; };
+		6B4EA1DD25466C37006B3E9E /* LYOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA17525466C37006B3E9E /* LYOrderCell.xib */; };
+		6B4EA1DE25466C37006B3E9E /* LYOrderSelectSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17625466C37006B3E9E /* LYOrderSelectSearchView.swift */; };
+		6B4EA1DF25466C37006B3E9E /* LYOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17725466C37006B3E9E /* LYOrderController.swift */; };
+		6B4EA1E025466C37006B3E9E /* LYOrderDetaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17A25466C37006B3E9E /* LYOrderDetaiViewModel.swift */; };
+		6B4EA1E125466C37006B3E9E /* LYOrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17B25466C37006B3E9E /* LYOrderDetailController.swift */; };
+		6B4EA1E225466C37006B3E9E /* LYOrderDetaiInfoHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA17D25466C37006B3E9E /* LYOrderDetaiInfoHeader.xib */; };
+		6B4EA1E325466C37006B3E9E /* LYOrderDetailInfoFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA17E25466C37006B3E9E /* LYOrderDetailInfoFooter.xib */; };
+		6B4EA1E425466C37006B3E9E /* LYOrderDetaiInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA17F25466C37006B3E9E /* LYOrderDetaiInfoHeader.swift */; };
+		6B4EA1E525466C37006B3E9E /* LYOrderDetailInfoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA18025466C37006B3E9E /* LYOrderDetailInfoFooter.swift */; };
+		6B4EA1E625466C37006B3E9E /* LYOrderDetailGoodsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA18125466C37006B3E9E /* LYOrderDetailGoodsListCell.swift */; };
+		6B4EA1E725466C37006B3E9E /* LYOrderDetailGoodsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA18225466C37006B3E9E /* LYOrderDetailGoodsListCell.xib */; };
+		6B4EA1EA25466C7C006B3E9E /* AppDelegate+Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA1E925466C7C006B3E9E /* AppDelegate+Observer.swift */; };
+		6B4EA22C2546A371006B3E9E /* LYLaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA22B2546A371006B3E9E /* LYLaunchModel.swift */; };
+		6B4EA2522546B6D5006B3E9E /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA2512546B6D5006B3E9E /* launch.jpg */; };
+		6B4EA25A2546C996006B3E9E /* LYRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA2592546C996006B3E9E /* LYRegisterController.swift */; };
+		6B4EA25E2546CA4F006B3E9E /* LYRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EA25D2546CA4F006B3E9E /* LYRegisterView.swift */; };
+		6B4EA2612546CA5B006B3E9E /* LYRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4EA2602546CA5B006B3E9E /* LYRegisterView.xib */; };
+		6B682A872553983500E5EDBF /* LYHomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B682A862553983500E5EDBF /* LYHomeBannerView.swift */; };
+		6B682A8A2553AA6500E5EDBF /* LYHomeADModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B682A892553AA6500E5EDBF /* LYHomeADModel.swift */; };
+		6B682A8D2553AC0C00E5EDBF /* API+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B682A8C2553AC0C00E5EDBF /* API+Home.swift */; };
+		6B682A982553E55E00E5EDBF /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B682A972553E55D00E5EDBF /* BaseWebViewController.swift */; };
+		6B691E56255A8EA200924FBB /* LYHomeLYZXIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B691E54255A8EA200924FBB /* LYHomeLYZXIconCell.swift */; };
+		6B691E57255A8EA200924FBB /* LYHomeLYZXIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B691E55255A8EA200924FBB /* LYHomeLYZXIconCell.xib */; };
+		6B6C4489254AB0B7009D4A54 /* LYRegisterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C4488254AB0B7009D4A54 /* LYRegisterInfoView.swift */; };
+		6B6C448D254AB0C1009D4A54 /* LYRegisterInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C448C254AB0C1009D4A54 /* LYRegisterInfoView.xib */; };
+		6B6C44DF254ABBEA009D4A54 /* LYRegisterInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C44DE254ABBEA009D4A54 /* LYRegisterInfoController.swift */; };
+		6B70B0A22552437500A74F37 /* LYHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B70B0A12552437500A74F37 /* LYHomeView.swift */; };
+		6B70B0A5255244F300A74F37 /* LYHomeNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B70B0A4255244F300A74F37 /* LYHomeNaviView.swift */; };
+		6B70B0A8255244FB00A74F37 /* LYHomeNaviView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B70B0A7255244FB00A74F37 /* LYHomeNaviView.xib */; };
+		6B7FF65E255A7A97001E1124 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FF65D255A7A97001E1124 /* BaseCollectionReusableView.swift */; };
+		6B7FF667255A8852001E1124 /* LYHomeLYZXCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FF665255A8852001E1124 /* LYHomeLYZXCell.swift */; };
+		6B7FF668255A8852001E1124 /* LYHomeLYZXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7FF666255A8852001E1124 /* LYHomeLYZXCell.xib */; };
+		6B88998425EF5D3900157FEA /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B88998325EF5D3900157FEA /* CountDown.m */; };
+		6B88998825EF6B8800157FEA /* LYHomeMiaoshaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88998625EF6B8800157FEA /* LYHomeMiaoshaCell.swift */; };
+		6B88998925EF6B8800157FEA /* LYHomeMiaoshaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B88998725EF6B8800157FEA /* LYHomeMiaoshaCell.xib */; };
+		6B88998D25EF76A200157FEA /* LYHomeMiaoshaItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88998B25EF76A200157FEA /* LYHomeMiaoshaItemCell.swift */; };
+		6B88998E25EF76A200157FEA /* LYHomeMiaoshaItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B88998C25EF76A200157FEA /* LYHomeMiaoshaItemCell.xib */; };
+		6B8CE4AD255E591E0007BB76 /* LYHomePpzqCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CE4AB255E591E0007BB76 /* LYHomePpzqCell.swift */; };
+		6B8CE4AE255E591E0007BB76 /* LYHomePpzqCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CE4AC255E591E0007BB76 /* LYHomePpzqCell.xib */; };
+		6B8CE4B2255E5CD40007BB76 /* LYHomePpzqIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CE4B0255E5CD40007BB76 /* LYHomePpzqIconCell.swift */; };
+		6B8CE4B3255E5CD40007BB76 /* LYHomePpzqIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CE4B1255E5CD40007BB76 /* LYHomePpzqIconCell.xib */; };
+		6B8CE4B6255E62280007BB76 /* LYBrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CE4B5255E62280007BB76 /* LYBrandModel.swift */; };
+		6B8CE4BA255E6C570007BB76 /* LYHomeWntjHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CE4B8255E6C570007BB76 /* LYHomeWntjHeader.swift */; };
+		6B8CE4BB255E6C570007BB76 /* LYHomeWntjHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CE4B9255E6C570007BB76 /* LYHomeWntjHeader.xib */; };
+		6B8CE4BF255E6E1D0007BB76 /* LYHomeWntjCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CE4BD255E6E1D0007BB76 /* LYHomeWntjCell.swift */; };
+		6B8CE4C0255E6E1D0007BB76 /* LYHomeWntjCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CE4BE255E6E1D0007BB76 /* LYHomeWntjCell.xib */; };
+		6B9CA07E25787604000A8802 /* LYModalQuanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA07D25787604000A8802 /* LYModalQuanController.swift */; };
+		6B9CA08225787671000A8802 /* LYModalQuanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA08125787671000A8802 /* LYModalQuanView.swift */; };
+		6B9CA0852578767B000A8802 /* LYModalQuanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9CA0842578767B000A8802 /* LYModalQuanView.xib */; };
+		6B9CA09A2578C18C000A8802 /* LYModalQuanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA0982578C18C000A8802 /* LYModalQuanCell.swift */; };
+		6B9CA09B2578C18C000A8802 /* LYModalQuanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9CA0992578C18C000A8802 /* LYModalQuanCell.xib */; };
+		6B9CA09E2578C6FC000A8802 /* LYModalQuanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA09D2578C6FC000A8802 /* LYModalQuanViewModel.swift */; };
+		6BA3A138255CCBA300C27CF7 /* LYHomeChoujiangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3A136255CCBA300C27CF7 /* LYHomeChoujiangCell.swift */; };
+		6BA3A139255CCBA300C27CF7 /* LYHomeChoujiangCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3A137255CCBA300C27CF7 /* LYHomeChoujiangCell.xib */; };
+		6BA3A151255D10D500C27CF7 /* LYHomeMiddleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3A14F255D10D500C27CF7 /* LYHomeMiddleCell.swift */; };
+		6BA3A152255D10D500C27CF7 /* LYHomeMiddleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3A150255D10D500C27CF7 /* LYHomeMiddleCell.xib */; };
+		6BA3A156255D145700C27CF7 /* LYHomeYjhHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3A154255D145700C27CF7 /* LYHomeYjhHeader.swift */; };
+		6BA3A157255D145700C27CF7 /* LYHomeYjhHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3A155255D145700C27CF7 /* LYHomeYjhHeader.xib */; };
+		6BA42A962554E36200B88B85 /* LYHomeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA42A942554E36200B88B85 /* LYHomeIconCell.swift */; };
+		6BA42A972554E36200B88B85 /* LYHomeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA42A952554E36200B88B85 /* LYHomeIconCell.xib */; };
+		6BA42AC52554F65300B88B85 /* LYHomeNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA42AC32554F65300B88B85 /* LYHomeNormalHeader.swift */; };
+		6BA42AC62554F65300B88B85 /* LYHomeNormalHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA42AC42554F65300B88B85 /* LYHomeNormalHeader.xib */; };
+		6BACF5B0254E4A0D00951C57 /* LYPostDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACF5AF254E4A0D00951C57 /* LYPostDetailModel.swift */; };
+		6BACF5DF254EA7E800951C57 /* LYWeChatAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACF5DE254EA7E800951C57 /* LYWeChatAuthModel.swift */; };
+		6BACF61E254EB60000951C57 /* LYMultiRegisterInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACF61D254EB60000951C57 /* LYMultiRegisterInfoController.swift */; };
+		6BACF628254EB6DB00951C57 /* LYMultiRegisterInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACF627254EB6DB00951C57 /* LYMultiRegisterInfoViewModel.swift */; };
+		6BC41EF525F0D272008D712A /* LYHomeMiddleItem1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC41EF325F0D272008D712A /* LYHomeMiddleItem1Cell.swift */; };
+		6BC41EF625F0D272008D712A /* LYHomeMiddleItem1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC41EF425F0D272008D712A /* LYHomeMiddleItem1Cell.xib */; };
+		6BC41EFA25F0D4CE008D712A /* LYHomeMiddleItem2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC41EF825F0D4CE008D712A /* LYHomeMiddleItem2Cell.swift */; };
+		6BC41EFB25F0D4CE008D712A /* LYHomeMiddleItem2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC41EF925F0D4CE008D712A /* LYHomeMiddleItem2Cell.xib */; };
+		6BC4A7522587003F00C09E16 /* LYSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC4A7512587003F00C09E16 /* LYSortController.swift */; };
+		6BC4A7562587009400C09E16 /* LYSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC4A7552587009400C09E16 /* LYSortView.swift */; };
+		6BC4A7592587009B00C09E16 /* LYSortView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC4A7582587009B00C09E16 /* LYSortView.xib */; };
+		6BC4A75C2587140700C09E16 /* LYSortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC4A75B2587140700C09E16 /* LYSortViewModel.swift */; };
+		6BC5D822256DE47B00823892 /* LYPpzqController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D821256DE47B00823892 /* LYPpzqController.swift */; };
+		6BC5D827256DE49400823892 /* LYPpzqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D826256DE49400823892 /* LYPpzqView.swift */; };
+		6BC5D82C256DE6AB00823892 /* LYPpzqHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D82A256DE6AB00823892 /* LYPpzqHeader.swift */; };
+		6BC5D82D256DE6AB00823892 /* LYPpzqHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC5D82B256DE6AB00823892 /* LYPpzqHeader.xib */; };
+		6BC5D831256DE71700823892 /* LYPpzqCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D82F256DE71700823892 /* LYPpzqCell.swift */; };
+		6BC5D832256DE71700823892 /* LYPpzqCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC5D830256DE71700823892 /* LYPpzqCell.xib */; };
+		6BC5D835256DEB3500823892 /* LYPpzqViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D834256DEB3500823892 /* LYPpzqViewModel.swift */; };
+		6BC5D83B256DF5BD00823892 /* LYYxbpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D83A256DF5BD00823892 /* LYYxbpController.swift */; };
+		6BC5D83F256DF71400823892 /* LYYxbpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D83E256DF71400823892 /* LYYxbpView.swift */; };
+		6BC5D842256DF72600823892 /* LYYxbpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D841256DF72600823892 /* LYYxbpViewModel.swift */; };
+		6BC5D845256DFA9A00823892 /* LYYxbpAdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5D844256DFA9A00823892 /* LYYxbpAdModel.swift */; };
+		6BCC0DFE25EE2C67009F5DB4 /* LYMiaoshaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC0DFD25EE2C67009F5DB4 /* LYMiaoshaModel.swift */; };
+		6BCC0E0225EE37E2009F5DB4 /* LYHomeMiaoshaHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC0E0025EE37E2009F5DB4 /* LYHomeMiaoshaHeader.swift */; };
+		6BCC0E0325EE37E2009F5DB4 /* LYHomeMiaoshaHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC0E0125EE37E2009F5DB4 /* LYHomeMiaoshaHeader.xib */; };
+		6BD4CC11257768C3006B3555 /* LYGoodsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4CC10257768C3006B3555 /* LYGoodsDetailView.swift */; };
+		6BD4CC14257768CC006B3555 /* LYGoodsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD4CC13257768CC006B3555 /* LYGoodsDetailView.xib */; };
+		6BD4CC1925777664006B3555 /* LYGoodsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4CC1725777664006B3555 /* LYGoodsDetailCell.swift */; };
+		6BD4CC1A25777664006B3555 /* LYGoodsDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD4CC1825777664006B3555 /* LYGoodsDetailCell.xib */; };
+		6BD4CC1F257781AA006B3555 /* LYGoodsTuijianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4CC1D257781AA006B3555 /* LYGoodsTuijianCell.swift */; };
+		6BD4CC20257781AA006B3555 /* LYGoodsTuijianCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD4CC1E257781AA006B3555 /* LYGoodsTuijianCell.xib */; };
+		6BD4CC2425778387006B3555 /* LYGoodsTuijianItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4CC2225778387006B3555 /* LYGoodsTuijianItemCell.swift */; };
+		6BD4CC2525778387006B3555 /* LYGoodsTuijianItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD4CC2325778387006B3555 /* LYGoodsTuijianItemCell.xib */; };
+		6BDA62002564CF6E00D385F5 /* LYH5ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA61FF2564CF6E00D385F5 /* LYH5ActivityController.swift */; };
+		6BDA62042564EED400D385F5 /* LYH5ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA62032564EED400D385F5 /* LYH5ActivityViewModel.swift */; };
+		6BDA62082564F7E600D385F5 /* API+Quan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA62072564F7E600D385F5 /* API+Quan.swift */; };
+		6BDA620B2565041D00D385F5 /* LYPayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA620A2565041D00D385F5 /* LYPayModel.swift */; };
+		6BDA620E2565055400D385F5 /* LYCouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA620D2565055400D385F5 /* LYCouponModel.swift */; };
+		6BE4A31D25622411008B478F /* LYAccountManageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4A31C25622411008B478F /* LYAccountManageViewModel.swift */; };
+		6BE4A35725624ADE008B478F /* LYHomeYjhFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4A35525624ADE008B478F /* LYHomeYjhFooter.swift */; };
+		6BE4A35825624ADE008B478F /* LYHomeYjhFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4A35625624ADE008B478F /* LYHomeYjhFooter.xib */; };
+		6BE4A35C25625519008B478F /* LYYjhNaviModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4A35B25625519008B478F /* LYYjhNaviModel.swift */; };
+		6BE4A38125626E6B008B478F /* LYHomeYjhCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4A37F25626E6B008B478F /* LYHomeYjhCell.swift */; };
+		6BE4A38225626E6B008B478F /* LYHomeYjhCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4A38025626E6B008B478F /* LYHomeYjhCell.xib */; };
+		6BE6EE89254FD66C00C31C83 /* LYMultiRegisterSuccessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6EE87254FD66C00C31C83 /* LYMultiRegisterSuccessCell.swift */; };
+		6BE6EE8A254FD66C00C31C83 /* LYMultiRegisterSuccessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6EE88254FD66C00C31C83 /* LYMultiRegisterSuccessCell.xib */; };
+		6BE6EE8D254FEFC600C31C83 /* LYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6EE8C254FEFC600C31C83 /* LYLoginView.swift */; };
+		6BE6EE90254FEFD100C31C83 /* LYLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6EE8F254FEFD000C31C83 /* LYLoginView.xib */; };
+		6BF19F96256E3D3A0056AA15 /* LYYxbpBannerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF19F94256E3D3A0056AA15 /* LYYxbpBannerHeader.swift */; };
+		6BF19F97256E3D3A0056AA15 /* LYYxbpBannerHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF19F95256E3D3A0056AA15 /* LYYxbpBannerHeader.xib */; };
+		6BF735622547ADB800C2196A /* LYRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF735612547ADB800C2196A /* LYRegisterViewModel.swift */; };
+		F444F136577ABDA19897A108 /* Pods_LongYi_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFDF68A3E34AB30E84F107D /* Pods_LongYi_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B127254254ECE07008E26F2 /* LYMultiRegisterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterInfoView.swift; sourceTree = "<group>"; };
+		6B127257254ECE1A008E26F2 /* LYMultiRegisterInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYMultiRegisterInfoView.xib; sourceTree = "<group>"; };
+		6B127261254EDF0C008E26F2 /* LYMultiRegisterInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterInfoCell.swift; sourceTree = "<group>"; };
+		6B127262254EDF0C008E26F2 /* LYMultiRegisterInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYMultiRegisterInfoCell.xib; sourceTree = "<group>"; };
+		6B127266254EE9C1008E26F2 /* LYAccountShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAccountShopModel.swift; sourceTree = "<group>"; };
+		6B12726C254F15DD008E26F2 /* LYMultiRegisterSuccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterSuccessController.swift; sourceTree = "<group>"; };
+		6B127270254F162A008E26F2 /* LYMultiRegisterSuccessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterSuccessViewModel.swift; sourceTree = "<group>"; };
+		6B127274254F1698008E26F2 /* LYMultiRegisterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterHeaderView.swift; sourceTree = "<group>"; };
+		6B127277254F16A7008E26F2 /* LYMultiRegisterHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYMultiRegisterHeaderView.xib; sourceTree = "<group>"; };
+		6B12727A254F16D7008E26F2 /* LYMultiRegisterFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterFooterView.swift; sourceTree = "<group>"; };
+		6B12727D254F16F3008E26F2 /* LYMultiRegisterFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYMultiRegisterFooterView.xib; sourceTree = "<group>"; };
+		6B19DF4425465BB8006F3EE3 /* LongYi_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongYi_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B19DF4725465BB8006F3EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B19DF5025465BBA006F3EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B19DF5325465BBA006F3EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B19DF5525465BBA006F3EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1B4B9A2579CB2700663C68 /* LYAddCartParameterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAddCartParameterModel.swift; sourceTree = "<group>"; };
+		6B2309C32574D7BE003CFB53 /* LYGoodsGuigeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsGuigeCell.swift; sourceTree = "<group>"; };
+		6B2309C42574D7BE003CFB53 /* LYGoodsGuigeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsGuigeCell.xib; sourceTree = "<group>"; };
+		6B2309C92575C7A7003CFB53 /* LYGoodsTagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsTagCell.swift; sourceTree = "<group>"; };
+		6B2309CA2575C7A7003CFB53 /* LYGoodsTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsTagCell.xib; sourceTree = "<group>"; };
+		6B2309E32575EA3C003CFB53 /* LYGoodsQuanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsQuanCell.swift; sourceTree = "<group>"; };
+		6B2309E42575EA3C003CFB53 /* LYGoodsQuanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsQuanCell.xib; sourceTree = "<group>"; };
+		6B230A1D257618B9003CFB53 /* LYGoodsQuanItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsQuanItemCell.swift; sourceTree = "<group>"; };
+		6B230A1E257618B9003CFB53 /* LYGoodsQuanItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsQuanItemCell.xib; sourceTree = "<group>"; };
+		6B28383925F1CD08001E26AB /* LYHomeCjthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeCjthCell.swift; sourceTree = "<group>"; };
+		6B28383A25F1CD08001E26AB /* LYHomeCjthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeCjthCell.xib; sourceTree = "<group>"; };
+		6B28385B25F209C4001E26AB /* LYHomeNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeNormalFooter.swift; sourceTree = "<group>"; };
+		6B28385C25F209C4001E26AB /* LYHomeNormalFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeNormalFooter.xib; sourceTree = "<group>"; };
+		6B28386025F2151F001E26AB /* LYHomeRoundHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeRoundHeader.swift; sourceTree = "<group>"; };
+		6B28386125F2151F001E26AB /* LYHomeRoundHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeRoundHeader.xib; sourceTree = "<group>"; };
+		6B28386525F21D6C001E26AB /* LYHomeCjthGoodsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeCjthGoodsItemCell.swift; sourceTree = "<group>"; };
+		6B28386625F21D6C001E26AB /* LYHomeCjthGoodsItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeCjthGoodsItemCell.xib; sourceTree = "<group>"; };
+		6B28387325F2203D001E26AB /* LYHomeCjthGoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeCjthGoodsCell.swift; sourceTree = "<group>"; };
+		6B28387425F2203D001E26AB /* LYHomeCjthGoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeCjthGoodsCell.xib; sourceTree = "<group>"; };
+		6B2F1E70256C970600747B25 /* LYYaojuhuiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYaojuhuiController.swift; sourceTree = "<group>"; };
+		6B2F1E77256C98B500747B25 /* LYYaojuhuiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYaojuhuiView.swift; sourceTree = "<group>"; };
+		6B2F1E96256CA51F00747B25 /* LYYaojuhuiHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYaojuhuiHeader.swift; sourceTree = "<group>"; };
+		6B2F1E97256CA51F00747B25 /* LYYaojuhuiHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYaojuhuiHeader.xib; sourceTree = "<group>"; };
+		6B2F1E9B256CA6BE00747B25 /* LYYaojuhuiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYaojuhuiViewModel.swift; sourceTree = "<group>"; };
+		6B3814F3256E41200026F2A7 /* LYYxbpYxttCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpYxttCell.swift; sourceTree = "<group>"; };
+		6B3814F4256E41200026F2A7 /* LYYxbpYxttCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYxbpYxttCell.xib; sourceTree = "<group>"; };
+		6B3814F8256E472D0026F2A7 /* LYYxbpNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpNormalHeader.swift; sourceTree = "<group>"; };
+		6B3814F9256E472D0026F2A7 /* LYYxbpNormalHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYxbpNormalHeader.xib; sourceTree = "<group>"; };
+		6B3814FD256E55F80026F2A7 /* LYYxbpYxtjCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpYxtjCell.swift; sourceTree = "<group>"; };
+		6B3814FE256E55F80026F2A7 /* LYYxbpYxtjCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYxbpYxtjCell.xib; sourceTree = "<group>"; };
+		6B381502256E59B30026F2A7 /* LYYxbpMoreYxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpMoreYxCell.swift; sourceTree = "<group>"; };
+		6B381503256E59B30026F2A7 /* LYYxbpMoreYxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYxbpMoreYxCell.xib; sourceTree = "<group>"; };
+		6B4042E92574847300252421 /* LYGoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsView.swift; sourceTree = "<group>"; };
+		6B4042EC2574942800252421 /* LYGoodsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsBannerCell.swift; sourceTree = "<group>"; };
+		6B4042ED2574942800252421 /* LYGoodsBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsBannerCell.xib; sourceTree = "<group>"; };
+		6B45DEE7254BAD450063FC57 /* LYRegisterInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterInfoViewModel.swift; sourceTree = "<group>"; };
+		6B45DEEB254BB00F0063FC57 /* LYAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAccountModel.swift; sourceTree = "<group>"; };
+		6B45DF0A254BFB530063FC57 /* LYRegisterSuccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterSuccessController.swift; sourceTree = "<group>"; };
+		6B45DF0E254BFB940063FC57 /* LYRegisterSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterSuccessView.swift; sourceTree = "<group>"; };
+		6B45DF12254BFB9C0063FC57 /* LYRegisterSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYRegisterSuccessView.xib; sourceTree = "<group>"; };
+		6B45DF16254BFF970063FC57 /* LYRegisterSuccessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterSuccessViewModel.swift; sourceTree = "<group>"; };
+		6B45DF1C254C0FB10063FC57 /* LYRegisterProtocalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterProtocalController.swift; sourceTree = "<group>"; };
+		6B45DF1D254C0FB10063FC57 /* LYRegisterProtocalController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYRegisterProtocalController.xib; sourceTree = "<group>"; };
+		6B45DF23254C10980063FC57 /* LYRegisterProtocalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterProtocalViewModel.swift; sourceTree = "<group>"; };
+		6B45DF26254C12BB0063FC57 /* API+NewsCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+NewsCenter.swift"; sourceTree = "<group>"; };
+		6B4E6FBB255128F20040DE31 /* LYForgetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordController.swift; sourceTree = "<group>"; };
+		6B4E6FBE255129190040DE31 /* LYForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordView.swift; sourceTree = "<group>"; };
+		6B4E6FC12551292B0040DE31 /* LYForgetPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYForgetPasswordView.xib; sourceTree = "<group>"; };
+		6B4E6FC425512C5C0040DE31 /* LYForgetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordViewModel.swift; sourceTree = "<group>"; };
+		6B4E6FC725513E9E0040DE31 /* LYForgetPasswordSetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordSetController.swift; sourceTree = "<group>"; };
+		6B4E6FCA25513EB20040DE31 /* LYForgetPasswordSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordSetView.swift; sourceTree = "<group>"; };
+		6B4E6FCD25513EBC0040DE31 /* LYForgetPasswordSetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYForgetPasswordSetView.xib; sourceTree = "<group>"; };
+		6B4E6FD025514B960040DE31 /* LYForgetPasswordSuccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordSuccessController.swift; sourceTree = "<group>"; };
+		6B4E6FD325514BAD0040DE31 /* LYForgetPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYForgetPasswordSuccessView.swift; sourceTree = "<group>"; };
+		6B4E6FD625514BBB0040DE31 /* LYForgetPasswordSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYForgetPasswordSuccessView.xib; sourceTree = "<group>"; };
+		6B4EA02E25466BC1006B3E9E /* LYNotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYNotificationName.swift; sourceTree = "<group>"; };
+		6B4EA02F25466BC1006B3E9E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6B4EA03025466BC1006B3E9E /* ImportFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportFiles.swift; sourceTree = "<group>"; };
+		6B4EA03525466BDC006B3E9E /* API+Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+Cart.swift"; sourceTree = "<group>"; };
+		6B4EA03825466BDD006B3E9E /* LYRequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYRequestError.swift; sourceTree = "<group>"; };
+		6B4EA03925466BDD006B3E9E /* API+MapObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+MapObject.swift"; sourceTree = "<group>"; };
+		6B4EA03A25466BDD006B3E9E /* API+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+Base.swift"; sourceTree = "<group>"; };
+		6B4EA03B25466BDD006B3E9E /* API+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+User.swift"; sourceTree = "<group>"; };
+		6B4EA03C25466BDD006B3E9E /* API+Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+Order.swift"; sourceTree = "<group>"; };
+		6B4EA03D25466BDD006B3E9E /* API+Goods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+Goods.swift"; sourceTree = "<group>"; };
+		6B4EA04825466BF4006B3E9E /* Common+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Functions.swift"; sourceTree = "<group>"; };
+		6B4EA04925466BF4006B3E9E /* Int+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		6B4EA04A25466BF4006B3E9E /* Date+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		6B4EA04B25466BF4006B3E9E /* Optional+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+extension.swift"; sourceTree = "<group>"; };
+		6B4EA04C25466BF4006B3E9E /* String+BankName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BankName.swift"; sourceTree = "<group>"; };
+		6B4EA04D25466BF4006B3E9E /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		6B4EA04E25466BF4006B3E9E /* GCD+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCD+extension.swift"; sourceTree = "<group>"; };
+		6B4EA04F25466BF4006B3E9E /* File+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "File+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05025466BF4006B3E9E /* Model+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05225466BF4006B3E9E /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05325466BF4006B3E9E /* UIFont+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05425466BF4006B3E9E /* UIWindow+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05525466BF4006B3E9E /* UILabel+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05625466BF4006B3E9E /* UIButton+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05725466BF4006B3E9E /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05825466BF4006B3E9E /* UIButton+Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Count.swift"; sourceTree = "<group>"; };
+		6B4EA05925466BF4006B3E9E /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05A25466BF4006B3E9E /* UIBarButtonItem+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05B25466BF4006B3E9E /* UIScrollView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05C25466BF4006B3E9E /* UITextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
+		6B4EA05D25466BF4006B3E9E /* UIViewController+WL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+WL.swift"; sourceTree = "<group>"; };
+		6B4EA05E25466BF4006B3E9E /* UITableView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
+		6B4EA07725466C13006B3E9E /* MBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
+		6B4EA07925466C13006B3E9E /* LYDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYDatePickerView.xib; sourceTree = "<group>"; };
+		6B4EA07A25466C13006B3E9E /* LYDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYDatePickerView.swift; sourceTree = "<group>"; };
+		6B4EA07C25466C13006B3E9E /* YSModal_presentedNavC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSModal_presentedNavC.swift; sourceTree = "<group>"; };
+		6B4EA07E25466C13006B3E9E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6B4EA07F25466C13006B3E9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B4EA08425466C13006B3E9E /* YSLoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSLoadingIndicatorView.swift; sourceTree = "<group>"; };
+		6B4EA08525466C13006B3E9E /* YSLoadingIndicatorView_default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSLoadingIndicatorView_default.swift; sourceTree = "<group>"; };
+		6B4EA08625466C13006B3E9E /* YSBaseV_loadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseV_loadingIndicator.swift; sourceTree = "<group>"; };
+		6B4EA08825466C13006B3E9E /* YSBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseVC.swift; sourceTree = "<group>"; };
+		6B4EA08A25466C13006B3E9E /* YSBaseCell_tbv_subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_tbv_subtitle.swift; sourceTree = "<group>"; };
+		6B4EA08B25466C13006B3E9E /* YSBaseCell_tbv_value2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_tbv_value2.swift; sourceTree = "<group>"; };
+		6B4EA08C25466C13006B3E9E /* YSBaseCell_colv_headerFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_colv_headerFooter.swift; sourceTree = "<group>"; };
+		6B4EA08D25466C13006B3E9E /* YSBaseCell_colv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_colv.swift; sourceTree = "<group>"; };
+		6B4EA08E25466C13006B3E9E /* YSBaseCell_tbv_default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_tbv_default.swift; sourceTree = "<group>"; };
+		6B4EA08F25466C13006B3E9E /* YSBaseCell_tbv_value1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSBaseCell_tbv_value1.swift; sourceTree = "<group>"; };
+		6B4EA09025466C13006B3E9E /* YSModal_animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSModal_animator.swift; sourceTree = "<group>"; };
+		6B4EA09125466C13006B3E9E /* YSModal_direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSModal_direction.swift; sourceTree = "<group>"; };
+		6B4EA09225466C13006B3E9E /* YSModal_presentingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSModal_presentingVC.swift; sourceTree = "<group>"; };
+		6B4EA09325466C13006B3E9E /* YSModal_presentedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSModal_presentedVC.swift; sourceTree = "<group>"; };
+		6B4EA09525466C14006B3E9E /* DefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		6B4EA09625466C14006B3E9E /* PlistProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistProperty.swift; sourceTree = "<group>"; };
+		6B4EA09725466C14006B3E9E /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		6B4EA09925466C14006B3E9E /* HeaderLoading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderLoading.xib; sourceTree = "<group>"; };
+		6B4EA09A25466C14006B3E9E /* RefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
+		6B4EA09B25466C14006B3E9E /* HeaderLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderLoading.swift; sourceTree = "<group>"; };
+		6B4EA09D25466C14006B3E9E /* ExpandClickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandClickButton.swift; sourceTree = "<group>"; };
+		6B4EA09F25466C14006B3E9E /* SortButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortButton.swift; sourceTree = "<group>"; };
+		6B4EA0A125466C14006B3E9E /* YXCityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXCityModel.swift; sourceTree = "<group>"; };
+		6B4EA0A225466C14006B3E9E /* YXPickerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXPickerListCell.swift; sourceTree = "<group>"; };
+		6B4EA0A325466C14006B3E9E /* YXPickerTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXPickerTitleCell.swift; sourceTree = "<group>"; };
+		6B4EA0A425466C14006B3E9E /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		6B4EA0A525466C14006B3E9E /* YXCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXCompatible.swift; sourceTree = "<group>"; };
+		6B4EA0A625466C14006B3E9E /* YXPickerTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXPickerTitleView.swift; sourceTree = "<group>"; };
+		6B4EA0A725466C14006B3E9E /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		6B4EA0A825466C14006B3E9E /* YXPickerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXPickerListView.swift; sourceTree = "<group>"; };
+		6B4EA0A925466C14006B3E9E /* YXAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YXAssets.xcassets; sourceTree = "<group>"; };
+		6B4EA0AA25466C14006B3E9E /* YXChooseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXChooseView.swift; sourceTree = "<group>"; };
+		6B4EA0AC25466C14006B3E9E /* Marquee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marquee.swift; sourceTree = "<group>"; };
+		6B4EA0AD25466C14006B3E9E /* LYAnnounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAnnounceView.swift; sourceTree = "<group>"; };
+		6B4EA0AF25466C15006B3E9E /* QRCodeScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScannerController.swift; sourceTree = "<group>"; };
+		6B4EA0B125466C15006B3E9E /* OpenCameraAndAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCameraAndAlbum.swift; sourceTree = "<group>"; };
+		6B4EA0B325466C15006B3E9E /* LYAddMinusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAddMinusView.swift; sourceTree = "<group>"; };
+		6B4EA0E125466C23006B3E9E /* UserPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		6B4EA0E225466C23006B3E9E /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6B4EA0E825466C36006B3E9E /* LYHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYHomeController.swift; sourceTree = "<group>"; };
+		6B4EA0EA25466C36006B3E9E /* LYHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYHomeViewModel.swift; sourceTree = "<group>"; };
+		6B4EA0F425466C36006B3E9E /* LYModalCartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalCartViewModel.swift; sourceTree = "<group>"; };
+		6B4EA0F625466C36006B3E9E /* LYModalCartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYModalCartView.xib; sourceTree = "<group>"; };
+		6B4EA0F725466C36006B3E9E /* LYModalCartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalCartView.swift; sourceTree = "<group>"; };
+		6B4EA0F825466C36006B3E9E /* LYModalCartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalCartController.swift; sourceTree = "<group>"; };
+		6B4EA0FB25466C36006B3E9E /* LYModalSortCategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalSortCategoryViewModel.swift; sourceTree = "<group>"; };
+		6B4EA0FC25466C36006B3E9E /* LYModalSortController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYModalSortController.xib; sourceTree = "<group>"; };
+		6B4EA0FE25466C36006B3E9E /* LYGoodsCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsCategoryModel.swift; sourceTree = "<group>"; };
+		6B4EA10025466C36006B3E9E /* LYModalSortRightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalSortRightCell.swift; sourceTree = "<group>"; };
+		6B4EA10125466C36006B3E9E /* LYModalSortLeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYModalSortLeftCell.xib; sourceTree = "<group>"; };
+		6B4EA10225466C36006B3E9E /* LYModalSortRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYModalSortRightCell.xib; sourceTree = "<group>"; };
+		6B4EA10325466C36006B3E9E /* LYModalSortLeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalSortLeftCell.swift; sourceTree = "<group>"; };
+		6B4EA10425466C36006B3E9E /* LYModalSortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYModalSortController.swift; sourceTree = "<group>"; };
+		6B4EA10625466C36006B3E9E /* LYGoodsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsSearchController.swift; sourceTree = "<group>"; };
+		6B4EA11825466C36006B3E9E /* LYGoodsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsViewModel.swift; sourceTree = "<group>"; };
+		6B4EA11C25466C36006B3E9E /* LYGoodsCartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsCartView.swift; sourceTree = "<group>"; };
+		6B4EA11D25466C36006B3E9E /* LYGoodsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsController.swift; sourceTree = "<group>"; };
+		6B4EA12C25466C36006B3E9E /* LYCartOrderConfirmViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderConfirmViewModel.swift; sourceTree = "<group>"; };
+		6B4EA12E25466C36006B3E9E /* LYCartOrderCommitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderCommitModel.swift; sourceTree = "<group>"; };
+		6B4EA12F25466C36006B3E9E /* LYCartOrderConfirmController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCartOrderConfirmController.xib; sourceTree = "<group>"; };
+		6B4EA13125466C36006B3E9E /* LYCartOrderConfirmCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCartOrderConfirmCell.xib; sourceTree = "<group>"; };
+		6B4EA13225466C36006B3E9E /* LYCartOrderConfirmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderConfirmCell.swift; sourceTree = "<group>"; };
+		6B4EA13325466C36006B3E9E /* LYCartOrderConfirmFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderConfirmFooter.swift; sourceTree = "<group>"; };
+		6B4EA13425466C36006B3E9E /* LYCartOrderConfirmFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCartOrderConfirmFooter.xib; sourceTree = "<group>"; };
+		6B4EA13525466C36006B3E9E /* LYCartOrderConfirmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderConfirmController.swift; sourceTree = "<group>"; };
+		6B4EA13825466C36006B3E9E /* LYCartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartViewModel.swift; sourceTree = "<group>"; };
+		6B4EA13A25466C36006B3E9E /* LYCartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartController.swift; sourceTree = "<group>"; };
+		6B4EA13C25466C36006B3E9E /* LYCartCheckModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartCheckModel.swift; sourceTree = "<group>"; };
+		6B4EA13E25466C36006B3E9E /* LYCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCartCell.xib; sourceTree = "<group>"; };
+		6B4EA13F25466C36006B3E9E /* LYCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartCell.swift; sourceTree = "<group>"; };
+		6B4EA14125466C36006B3E9E /* LYCartOrderSuccessController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCartOrderSuccessController.xib; sourceTree = "<group>"; };
+		6B4EA14225466C36006B3E9E /* LYCartOrderSuccessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCartOrderSuccessController.swift; sourceTree = "<group>"; };
+		6B4EA14425466C36006B3E9E /* LYAddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAddressModel.swift; sourceTree = "<group>"; };
+		6B4EA14525466C36006B3E9E /* LYGoodsTagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsTagModel.swift; sourceTree = "<group>"; };
+		6B4EA14625466C36006B3E9E /* LYGoodsImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsImageModel.swift; sourceTree = "<group>"; };
+		6B4EA14725466C36006B3E9E /* LYGoodsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsModel.swift; sourceTree = "<group>"; };
+		6B4EA14825466C36006B3E9E /* LYPaymentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYPaymentModel.swift; sourceTree = "<group>"; };
+		6B4EA14925466C36006B3E9E /* LYClientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYClientModel.swift; sourceTree = "<group>"; };
+		6B4EA14A25466C36006B3E9E /* LYGoodsSearchParameterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYGoodsSearchParameterModel.swift; sourceTree = "<group>"; };
+		6B4EA14D25466C37006B3E9E /* LYLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYLoginViewModel.swift; sourceTree = "<group>"; };
+		6B4EA15025466C37006B3E9E /* LYLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYLoginController.swift; sourceTree = "<group>"; };
+		6B4EA15325466C37006B3E9E /* LYAccountManageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYAccountManageController.xib; sourceTree = "<group>"; };
+		6B4EA15425466C37006B3E9E /* LYAccountManageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAccountManageController.swift; sourceTree = "<group>"; };
+		6B4EA15725466C37006B3E9E /* LYMineModifyPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYMineModifyPasswordViewModel.swift; sourceTree = "<group>"; };
+		6B4EA15825466C37006B3E9E /* LYMineModifyPasswordController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYMineModifyPasswordController.xib; sourceTree = "<group>"; };
+		6B4EA15925466C37006B3E9E /* LYMineModifyPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYMineModifyPasswordController.swift; sourceTree = "<group>"; };
+		6B4EA15C25466C37006B3E9E /* LYMineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYMineViewModel.swift; sourceTree = "<group>"; };
+		6B4EA15E25466C37006B3E9E /* LYMineOrderHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYMineOrderHeaderModel.swift; sourceTree = "<group>"; };
+		6B4EA15F25466C37006B3E9E /* LYMineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYMineController.swift; sourceTree = "<group>"; };
+		6B4EA16025466C37006B3E9E /* LYMineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYMineController.xib; sourceTree = "<group>"; };
+		6B4EA16225466C37006B3E9E /* ErrorProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorProtocal.swift; sourceTree = "<group>"; };
+		6B4EA16325466C37006B3E9E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6B4EA16425466C37006B3E9E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		6B4EA16525466C37006B3E9E /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6B4EA16625466C37006B3E9E /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B4EA16725466C37006B3E9E /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		6B4EA16925466C37006B3E9E /* LYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYTabBarController.swift; sourceTree = "<group>"; };
+		6B4EA16D25466C37006B3E9E /* LYOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderViewModel.swift; sourceTree = "<group>"; };
+		6B4EA16F25466C37006B3E9E /* LYOrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderModel.swift; sourceTree = "<group>"; };
+		6B4EA17025466C37006B3E9E /* LYOrderGoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderGoodModel.swift; sourceTree = "<group>"; };
+		6B4EA17125466C37006B3E9E /* LYOrderSearchParameterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderSearchParameterModel.swift; sourceTree = "<group>"; };
+		6B4EA17325466C37006B3E9E /* LYOrderSelectSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOrderSelectSearchView.xib; sourceTree = "<group>"; };
+		6B4EA17425466C37006B3E9E /* LYOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderCell.swift; sourceTree = "<group>"; };
+		6B4EA17525466C37006B3E9E /* LYOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOrderCell.xib; sourceTree = "<group>"; };
+		6B4EA17625466C37006B3E9E /* LYOrderSelectSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderSelectSearchView.swift; sourceTree = "<group>"; };
+		6B4EA17725466C37006B3E9E /* LYOrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderController.swift; sourceTree = "<group>"; };
+		6B4EA17A25466C37006B3E9E /* LYOrderDetaiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderDetaiViewModel.swift; sourceTree = "<group>"; };
+		6B4EA17B25466C37006B3E9E /* LYOrderDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderDetailController.swift; sourceTree = "<group>"; };
+		6B4EA17D25466C37006B3E9E /* LYOrderDetaiInfoHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOrderDetaiInfoHeader.xib; sourceTree = "<group>"; };
+		6B4EA17E25466C37006B3E9E /* LYOrderDetailInfoFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOrderDetailInfoFooter.xib; sourceTree = "<group>"; };
+		6B4EA17F25466C37006B3E9E /* LYOrderDetaiInfoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderDetaiInfoHeader.swift; sourceTree = "<group>"; };
+		6B4EA18025466C37006B3E9E /* LYOrderDetailInfoFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderDetailInfoFooter.swift; sourceTree = "<group>"; };
+		6B4EA18125466C37006B3E9E /* LYOrderDetailGoodsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYOrderDetailGoodsListCell.swift; sourceTree = "<group>"; };
+		6B4EA18225466C37006B3E9E /* LYOrderDetailGoodsListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOrderDetailGoodsListCell.xib; sourceTree = "<group>"; };
+		6B4EA1E925466C7C006B3E9E /* AppDelegate+Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Observer.swift"; sourceTree = "<group>"; };
+		6B4EA22B2546A371006B3E9E /* LYLaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLaunchModel.swift; sourceTree = "<group>"; };
+		6B4EA2512546B6D5006B3E9E /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		6B4EA2592546C996006B3E9E /* LYRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterController.swift; sourceTree = "<group>"; };
+		6B4EA25D2546CA4F006B3E9E /* LYRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterView.swift; sourceTree = "<group>"; };
+		6B4EA2602546CA5B006B3E9E /* LYRegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYRegisterView.xib; sourceTree = "<group>"; };
+		6B682A862553983500E5EDBF /* LYHomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeBannerView.swift; sourceTree = "<group>"; };
+		6B682A892553AA6500E5EDBF /* LYHomeADModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeADModel.swift; sourceTree = "<group>"; };
+		6B682A8C2553AC0C00E5EDBF /* API+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Home.swift"; sourceTree = "<group>"; };
+		6B682A972553E55D00E5EDBF /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
+		6B691E54255A8EA200924FBB /* LYHomeLYZXIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeLYZXIconCell.swift; sourceTree = "<group>"; };
+		6B691E55255A8EA200924FBB /* LYHomeLYZXIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeLYZXIconCell.xib; sourceTree = "<group>"; };
+		6B6C4488254AB0B7009D4A54 /* LYRegisterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterInfoView.swift; sourceTree = "<group>"; };
+		6B6C448C254AB0C1009D4A54 /* LYRegisterInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYRegisterInfoView.xib; sourceTree = "<group>"; };
+		6B6C44DE254ABBEA009D4A54 /* LYRegisterInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterInfoController.swift; sourceTree = "<group>"; };
+		6B70B0A12552437500A74F37 /* LYHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeView.swift; sourceTree = "<group>"; };
+		6B70B0A4255244F300A74F37 /* LYHomeNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeNaviView.swift; sourceTree = "<group>"; };
+		6B70B0A7255244FB00A74F37 /* LYHomeNaviView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeNaviView.xib; sourceTree = "<group>"; };
+		6B7FF65D255A7A97001E1124 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		6B7FF665255A8852001E1124 /* LYHomeLYZXCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeLYZXCell.swift; sourceTree = "<group>"; };
+		6B7FF666255A8852001E1124 /* LYHomeLYZXCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeLYZXCell.xib; sourceTree = "<group>"; };
+		6B88998225EF5D3900157FEA /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
+		6B88998325EF5D3900157FEA /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		6B88998625EF6B8800157FEA /* LYHomeMiaoshaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiaoshaCell.swift; sourceTree = "<group>"; };
+		6B88998725EF6B8800157FEA /* LYHomeMiaoshaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiaoshaCell.xib; sourceTree = "<group>"; };
+		6B88998B25EF76A200157FEA /* LYHomeMiaoshaItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiaoshaItemCell.swift; sourceTree = "<group>"; };
+		6B88998C25EF76A200157FEA /* LYHomeMiaoshaItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiaoshaItemCell.xib; sourceTree = "<group>"; };
+		6B8CE4AB255E591E0007BB76 /* LYHomePpzqCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomePpzqCell.swift; sourceTree = "<group>"; };
+		6B8CE4AC255E591E0007BB76 /* LYHomePpzqCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomePpzqCell.xib; sourceTree = "<group>"; };
+		6B8CE4B0255E5CD40007BB76 /* LYHomePpzqIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomePpzqIconCell.swift; sourceTree = "<group>"; };
+		6B8CE4B1255E5CD40007BB76 /* LYHomePpzqIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomePpzqIconCell.xib; sourceTree = "<group>"; };
+		6B8CE4B5255E62280007BB76 /* LYBrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBrandModel.swift; sourceTree = "<group>"; };
+		6B8CE4B8255E6C570007BB76 /* LYHomeWntjHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeWntjHeader.swift; sourceTree = "<group>"; };
+		6B8CE4B9255E6C570007BB76 /* LYHomeWntjHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeWntjHeader.xib; sourceTree = "<group>"; };
+		6B8CE4BD255E6E1D0007BB76 /* LYHomeWntjCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeWntjCell.swift; sourceTree = "<group>"; };
+		6B8CE4BE255E6E1D0007BB76 /* LYHomeWntjCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeWntjCell.xib; sourceTree = "<group>"; };
+		6B9CA07D25787604000A8802 /* LYModalQuanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYModalQuanController.swift; sourceTree = "<group>"; };
+		6B9CA08125787671000A8802 /* LYModalQuanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYModalQuanView.swift; sourceTree = "<group>"; };
+		6B9CA0842578767B000A8802 /* LYModalQuanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYModalQuanView.xib; sourceTree = "<group>"; };
+		6B9CA0982578C18C000A8802 /* LYModalQuanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYModalQuanCell.swift; sourceTree = "<group>"; };
+		6B9CA0992578C18C000A8802 /* LYModalQuanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYModalQuanCell.xib; sourceTree = "<group>"; };
+		6B9CA09D2578C6FC000A8802 /* LYModalQuanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYModalQuanViewModel.swift; sourceTree = "<group>"; };
+		6BA3A136255CCBA300C27CF7 /* LYHomeChoujiangCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeChoujiangCell.swift; sourceTree = "<group>"; };
+		6BA3A137255CCBA300C27CF7 /* LYHomeChoujiangCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeChoujiangCell.xib; sourceTree = "<group>"; };
+		6BA3A14F255D10D500C27CF7 /* LYHomeMiddleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiddleCell.swift; sourceTree = "<group>"; };
+		6BA3A150255D10D500C27CF7 /* LYHomeMiddleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiddleCell.xib; sourceTree = "<group>"; };
+		6BA3A154255D145700C27CF7 /* LYHomeYjhHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeYjhHeader.swift; sourceTree = "<group>"; };
+		6BA3A155255D145700C27CF7 /* LYHomeYjhHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeYjhHeader.xib; sourceTree = "<group>"; };
+		6BA42A942554E36200B88B85 /* LYHomeIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeIconCell.swift; sourceTree = "<group>"; };
+		6BA42A952554E36200B88B85 /* LYHomeIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeIconCell.xib; sourceTree = "<group>"; };
+		6BA42AC32554F65300B88B85 /* LYHomeNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeNormalHeader.swift; sourceTree = "<group>"; };
+		6BA42AC42554F65300B88B85 /* LYHomeNormalHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeNormalHeader.xib; sourceTree = "<group>"; };
+		6BACF5AF254E4A0D00951C57 /* LYPostDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPostDetailModel.swift; sourceTree = "<group>"; };
+		6BACF5B3254E80E800951C57 /* LongYi_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LongYi_Swift.entitlements; sourceTree = "<group>"; };
+		6BACF5D1254E847F00951C57 /* LongYi_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LongYi_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		6BACF5DE254EA7E800951C57 /* LYWeChatAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYWeChatAuthModel.swift; sourceTree = "<group>"; };
+		6BACF61D254EB60000951C57 /* LYMultiRegisterInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterInfoController.swift; sourceTree = "<group>"; };
+		6BACF627254EB6DB00951C57 /* LYMultiRegisterInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterInfoViewModel.swift; sourceTree = "<group>"; };
+		6BC41EF325F0D272008D712A /* LYHomeMiddleItem1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiddleItem1Cell.swift; sourceTree = "<group>"; };
+		6BC41EF425F0D272008D712A /* LYHomeMiddleItem1Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiddleItem1Cell.xib; sourceTree = "<group>"; };
+		6BC41EF825F0D4CE008D712A /* LYHomeMiddleItem2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiddleItem2Cell.swift; sourceTree = "<group>"; };
+		6BC41EF925F0D4CE008D712A /* LYHomeMiddleItem2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiddleItem2Cell.xib; sourceTree = "<group>"; };
+		6BC4A7512587003F00C09E16 /* LYSortController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYSortController.swift; sourceTree = "<group>"; };
+		6BC4A7552587009400C09E16 /* LYSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYSortView.swift; sourceTree = "<group>"; };
+		6BC4A7582587009B00C09E16 /* LYSortView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYSortView.xib; sourceTree = "<group>"; };
+		6BC4A75B2587140700C09E16 /* LYSortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYSortViewModel.swift; sourceTree = "<group>"; };
+		6BC5D821256DE47B00823892 /* LYPpzqController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPpzqController.swift; sourceTree = "<group>"; };
+		6BC5D826256DE49400823892 /* LYPpzqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPpzqView.swift; sourceTree = "<group>"; };
+		6BC5D82A256DE6AB00823892 /* LYPpzqHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPpzqHeader.swift; sourceTree = "<group>"; };
+		6BC5D82B256DE6AB00823892 /* LYPpzqHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPpzqHeader.xib; sourceTree = "<group>"; };
+		6BC5D82F256DE71700823892 /* LYPpzqCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPpzqCell.swift; sourceTree = "<group>"; };
+		6BC5D830256DE71700823892 /* LYPpzqCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPpzqCell.xib; sourceTree = "<group>"; };
+		6BC5D834256DEB3500823892 /* LYPpzqViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPpzqViewModel.swift; sourceTree = "<group>"; };
+		6BC5D83A256DF5BD00823892 /* LYYxbpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpController.swift; sourceTree = "<group>"; };
+		6BC5D83E256DF71400823892 /* LYYxbpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpView.swift; sourceTree = "<group>"; };
+		6BC5D841256DF72600823892 /* LYYxbpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpViewModel.swift; sourceTree = "<group>"; };
+		6BC5D844256DFA9A00823892 /* LYYxbpAdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpAdModel.swift; sourceTree = "<group>"; };
+		6BCC0DFD25EE2C67009F5DB4 /* LYMiaoshaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMiaoshaModel.swift; sourceTree = "<group>"; };
+		6BCC0E0025EE37E2009F5DB4 /* LYHomeMiaoshaHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeMiaoshaHeader.swift; sourceTree = "<group>"; };
+		6BCC0E0125EE37E2009F5DB4 /* LYHomeMiaoshaHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeMiaoshaHeader.xib; sourceTree = "<group>"; };
+		6BD4CC10257768C3006B3555 /* LYGoodsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsDetailView.swift; sourceTree = "<group>"; };
+		6BD4CC13257768CC006B3555 /* LYGoodsDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsDetailView.xib; sourceTree = "<group>"; };
+		6BD4CC1725777664006B3555 /* LYGoodsDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsDetailCell.swift; sourceTree = "<group>"; };
+		6BD4CC1825777664006B3555 /* LYGoodsDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsDetailCell.xib; sourceTree = "<group>"; };
+		6BD4CC1D257781AA006B3555 /* LYGoodsTuijianCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsTuijianCell.swift; sourceTree = "<group>"; };
+		6BD4CC1E257781AA006B3555 /* LYGoodsTuijianCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsTuijianCell.xib; sourceTree = "<group>"; };
+		6BD4CC2225778387006B3555 /* LYGoodsTuijianItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYGoodsTuijianItemCell.swift; sourceTree = "<group>"; };
+		6BD4CC2325778387006B3555 /* LYGoodsTuijianItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGoodsTuijianItemCell.xib; sourceTree = "<group>"; };
+		6BDA61FF2564CF6E00D385F5 /* LYH5ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYH5ActivityController.swift; sourceTree = "<group>"; };
+		6BDA62032564EED400D385F5 /* LYH5ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYH5ActivityViewModel.swift; sourceTree = "<group>"; };
+		6BDA62072564F7E600D385F5 /* API+Quan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Quan.swift"; sourceTree = "<group>"; };
+		6BDA620A2565041D00D385F5 /* LYPayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPayModel.swift; sourceTree = "<group>"; };
+		6BDA620D2565055400D385F5 /* LYCouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYCouponModel.swift; sourceTree = "<group>"; };
+		6BE4A31C25622411008B478F /* LYAccountManageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAccountManageViewModel.swift; sourceTree = "<group>"; };
+		6BE4A35525624ADE008B478F /* LYHomeYjhFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeYjhFooter.swift; sourceTree = "<group>"; };
+		6BE4A35625624ADE008B478F /* LYHomeYjhFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeYjhFooter.xib; sourceTree = "<group>"; };
+		6BE4A35B25625519008B478F /* LYYjhNaviModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYjhNaviModel.swift; sourceTree = "<group>"; };
+		6BE4A37F25626E6B008B478F /* LYHomeYjhCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYHomeYjhCell.swift; sourceTree = "<group>"; };
+		6BE4A38025626E6B008B478F /* LYHomeYjhCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHomeYjhCell.xib; sourceTree = "<group>"; };
+		6BE6EE87254FD66C00C31C83 /* LYMultiRegisterSuccessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMultiRegisterSuccessCell.swift; sourceTree = "<group>"; };
+		6BE6EE88254FD66C00C31C83 /* LYMultiRegisterSuccessCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYMultiRegisterSuccessCell.xib; sourceTree = "<group>"; };
+		6BE6EE8C254FEFC600C31C83 /* LYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLoginView.swift; sourceTree = "<group>"; };
+		6BE6EE8F254FEFD000C31C83 /* LYLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLoginView.xib; sourceTree = "<group>"; };
+		6BF19F94256E3D3A0056AA15 /* LYYxbpBannerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYYxbpBannerHeader.swift; sourceTree = "<group>"; };
+		6BF19F95256E3D3A0056AA15 /* LYYxbpBannerHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYYxbpBannerHeader.xib; sourceTree = "<group>"; };
+		6BF735612547ADB800C2196A /* LYRegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegisterViewModel.swift; sourceTree = "<group>"; };
+		B6AEB002E40A24951D63C233 /* Pods-LongYi_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongYi_Swift.release.xcconfig"; path = "Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		DDFDF68A3E34AB30E84F107D /* Pods_LongYi_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LongYi_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0FC988DC98C2036E0F50E1 /* Pods-LongYi_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongYi_Swift.debug.xcconfig"; path = "Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B19DF4125465BB8006F3EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444F136577ABDA19897A108 /* Pods_LongYi_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F65ACD80405A53A0D178BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE0FC988DC98C2036E0F50E1 /* Pods-LongYi_Swift.debug.xcconfig */,
+				B6AEB002E40A24951D63C233 /* Pods-LongYi_Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64F3DB5C7A270B72FAEBC821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDFDF68A3E34AB30E84F107D /* Pods_LongYi_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B127269254F1516008E26F2 /* MultiRegisterSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				6B12726A254F15AA008E26F2 /* ViewModel */,
+				6B12726B254F15B1008E26F2 /* View */,
+				6B12726C254F15DD008E26F2 /* LYMultiRegisterSuccessController.swift */,
+			);
+			path = MultiRegisterSuccess;
+			sourceTree = "<group>";
+		};
+		6B12726A254F15AA008E26F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B127270254F162A008E26F2 /* LYMultiRegisterSuccessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B12726B254F15B1008E26F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B127274254F1698008E26F2 /* LYMultiRegisterHeaderView.swift */,
+				6B127277254F16A7008E26F2 /* LYMultiRegisterHeaderView.xib */,
+				6B12727A254F16D7008E26F2 /* LYMultiRegisterFooterView.swift */,
+				6B12727D254F16F3008E26F2 /* LYMultiRegisterFooterView.xib */,
+				6BE6EE87254FD66C00C31C83 /* LYMultiRegisterSuccessCell.swift */,
+				6BE6EE88254FD66C00C31C83 /* LYMultiRegisterSuccessCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B19DF3B25465BB8006F3EE3 = {
+			isa = PBXGroup;
+			children = (
+				6B19DF4625465BB8006F3EE3 /* LongYi_Swift */,
+				6B19DF4525465BB8006F3EE3 /* Products */,
+				1F65ACD80405A53A0D178BD9 /* Pods */,
+				64F3DB5C7A270B72FAEBC821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B19DF4525465BB8006F3EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B19DF4425465BB8006F3EE3 /* LongYi_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B19DF4625465BB8006F3EE3 /* LongYi_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6BACF5B3254E80E800951C57 /* LongYi_Swift.entitlements */,
+				6B19DF6025465C3E006F3EE3 /* Global */,
+				6B4EA0E025466C23006B3E9E /* UserPreference */,
+				6B19DF6125465C49006F3EE3 /* Http(Moya) */,
+				6B19DF6325465C5D006F3EE3 /* Extension */,
+				6B19DF6425465C69006F3EE3 /* Vendor */,
+				6B19DF6225465C55006F3EE3 /* UI */,
+				6B19DF5C25465BE8006F3EE3 /* Support */,
+			);
+			path = LongYi_Swift;
+			sourceTree = "<group>";
+		};
+		6B19DF5C25465BE8006F3EE3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6B19DF4725465BB8006F3EE3 /* AppDelegate.swift */,
+				6B4EA1E925466C7C006B3E9E /* AppDelegate+Observer.swift */,
+				6BACF5D1254E847F00951C57 /* LongYi_Swift-Bridging-Header.h */,
+				6B19DF5025465BBA006F3EE3 /* Assets.xcassets */,
+				6B4EA2512546B6D5006B3E9E /* launch.jpg */,
+				6B19DF5225465BBA006F3EE3 /* LaunchScreen.storyboard */,
+				6B19DF5525465BBA006F3EE3 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6B19DF6025465C3E006F3EE3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA02F25466BC1006B3E9E /* Constant.swift */,
+				6B4EA03025466BC1006B3E9E /* ImportFiles.swift */,
+				6B4EA02E25466BC1006B3E9E /* LYNotificationName.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		6B19DF6125465C49006F3EE3 /* Http(Moya) */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA03B25466BDD006B3E9E /* API+User.swift */,
+				6B45DF26254C12BB0063FC57 /* API+NewsCenter.swift */,
+				6B682A8C2553AC0C00E5EDBF /* API+Home.swift */,
+				6BDA62072564F7E600D385F5 /* API+Quan.swift */,
+				6B4EA03525466BDC006B3E9E /* API+Cart.swift */,
+				6B4EA03D25466BDD006B3E9E /* API+Goods.swift */,
+				6B4EA03C25466BDD006B3E9E /* API+Order.swift */,
+				6B4EA03725466BDD006B3E9E /* Base */,
+			);
+			path = "Http(Moya)";
+			sourceTree = "<group>";
+		};
+		6B19DF6225465C55006F3EE3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16825466C37006B3E9E /* Root */,
+				6B4EA16125466C37006B3E9E /* Base */,
+				6B4EA14B25466C37006B3E9E /* Login */,
+				6B4EA0E625466C36006B3E9E /* Home(首页) */,
+				6BC4A74E2586FFD100C09E16 /* Sort(分类) */,
+				6B4EA16A25466C37006B3E9E /* Order(订单) */,
+				6B4EA11E25466C36006B3E9E /* Cart(购物车) */,
+				6B4EA15125466C37006B3E9E /* Mine(我的) */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6B19DF6325465C5D006F3EE3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA04725466BF4006B3E9E /* Foundation */,
+				6B4EA05125466BF4006B3E9E /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6B19DF6425465C69006F3EE3 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6B88998125EF5D3900157FEA /* CountDown */,
+				6B4EA0B225466C15006B3E9E /* AddMinusView */,
+				6B4EA07825466C13006B3E9E /* DatePicker */,
+				6B4EA09C25466C14006B3E9E /* ExpandClickButton */,
+				6B4EA07625466C13006B3E9E /* HUD */,
+				6B4EA0AB25466C14006B3E9E /* Marquee */,
+				6B4EA0B025466C15006B3E9E /* OpenCameraAndAlbum */,
+				6B4EA09425466C14006B3E9E /* Plist */,
+				6B4EA0AE25466C15006B3E9E /* QRCodeScanner */,
+				6B4EA09825466C14006B3E9E /* Refresh */,
+				6B4EA09E25466C14006B3E9E /* SortButton */,
+				6B4EA07B25466C13006B3E9E /* YSModal */,
+				6B4EA0A025466C14006B3E9E /* YXPickerView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		6B2F1E6F256C96CE00747B25 /* Yaojuhui */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1E75256C973200747B25 /* ViewModel */,
+				6B2F1E74256C972B00747B25 /* View */,
+				6B2F1E70256C970600747B25 /* LYYaojuhuiController.swift */,
+			);
+			path = Yaojuhui;
+			sourceTree = "<group>";
+		};
+		6B2F1E74256C972B00747B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1E77256C98B500747B25 /* LYYaojuhuiView.swift */,
+				6B2F1E96256CA51F00747B25 /* LYYaojuhuiHeader.swift */,
+				6B2F1E97256CA51F00747B25 /* LYYaojuhuiHeader.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2F1E75256C973200747B25 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1E9B256CA6BE00747B25 /* LYYaojuhuiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B45DEEA254BAFD20063FC57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DEEB254BB00F0063FC57 /* LYAccountModel.swift */,
+				6BACF5AF254E4A0D00951C57 /* LYPostDetailModel.swift */,
+				6BACF5DE254EA7E800951C57 /* LYWeChatAuthModel.swift */,
+				6B127266254EE9C1008E26F2 /* LYAccountShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B45DF09254BFB250063FC57 /* RegisterSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DF15254BFF7C0063FC57 /* ViewModel */,
+				6B45DF0D254BFB7E0063FC57 /* View */,
+				6B45DF0A254BFB530063FC57 /* LYRegisterSuccessController.swift */,
+			);
+			path = RegisterSuccess;
+			sourceTree = "<group>";
+		};
+		6B45DF0D254BFB7E0063FC57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DF0E254BFB940063FC57 /* LYRegisterSuccessView.swift */,
+				6B45DF12254BFB9C0063FC57 /* LYRegisterSuccessView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B45DF15254BFF7C0063FC57 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DF16254BFF970063FC57 /* LYRegisterSuccessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B45DF1B254C0F6F0063FC57 /* RegisterProtocal */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DF22254C10780063FC57 /* ViewModel */,
+				6B45DF1C254C0FB10063FC57 /* LYRegisterProtocalController.swift */,
+				6B45DF1D254C0FB10063FC57 /* LYRegisterProtocalController.xib */,
+			);
+			path = RegisterProtocal;
+			sourceTree = "<group>";
+		};
+		6B45DF22254C10780063FC57 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DF23254C10980063FC57 /* LYRegisterProtocalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4E6FB72551253D0040DE31 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E6FB9255125F70040DE31 /* ViewModel */,
+				6B4E6FB8255125F00040DE31 /* View */,
+				6B4E6FBB255128F20040DE31 /* LYForgetPasswordController.swift */,
+				6B4E6FC725513E9E0040DE31 /* LYForgetPasswordSetController.swift */,
+				6B4E6FD025514B960040DE31 /* LYForgetPasswordSuccessController.swift */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		6B4E6FB8255125F00040DE31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E6FBE255129190040DE31 /* LYForgetPasswordView.swift */,
+				6B4E6FC12551292B0040DE31 /* LYForgetPasswordView.xib */,
+				6B4E6FCA25513EB20040DE31 /* LYForgetPasswordSetView.swift */,
+				6B4E6FCD25513EBC0040DE31 /* LYForgetPasswordSetView.xib */,
+				6B4E6FD325514BAD0040DE31 /* LYForgetPasswordSuccessView.swift */,
+				6B4E6FD625514BBB0040DE31 /* LYForgetPasswordSuccessView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4E6FB9255125F70040DE31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E6FC425512C5C0040DE31 /* LYForgetPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA03725466BDD006B3E9E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA03A25466BDD006B3E9E /* API+Base.swift */,
+				6B4EA03925466BDD006B3E9E /* API+MapObject.swift */,
+				6B4EA03825466BDD006B3E9E /* LYRequestError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6B4EA04725466BF4006B3E9E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA04825466BF4006B3E9E /* Common+Functions.swift */,
+				6B4EA04925466BF4006B3E9E /* Int+extension.swift */,
+				6B4EA04A25466BF4006B3E9E /* Date+extension.swift */,
+				6B4EA04B25466BF4006B3E9E /* Optional+extension.swift */,
+				6B4EA04C25466BF4006B3E9E /* String+BankName.swift */,
+				6B4EA04D25466BF4006B3E9E /* String+extension.swift */,
+				6B4EA04E25466BF4006B3E9E /* GCD+extension.swift */,
+				6B4EA04F25466BF4006B3E9E /* File+extension.swift */,
+				6B4EA05025466BF4006B3E9E /* Model+extension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6B4EA05125466BF4006B3E9E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA05225466BF4006B3E9E /* UIImageView+extension.swift */,
+				6B4EA05325466BF4006B3E9E /* UIFont+extension.swift */,
+				6B4EA05425466BF4006B3E9E /* UIWindow+extension.swift */,
+				6B4EA05525466BF4006B3E9E /* UILabel+extension.swift */,
+				6B4EA05625466BF4006B3E9E /* UIButton+extension.swift */,
+				6B4EA05825466BF4006B3E9E /* UIButton+Count.swift */,
+				6B4EA05725466BF4006B3E9E /* UIView+extension.swift */,
+				6B4EA05925466BF4006B3E9E /* UIImage+extension.swift */,
+				6B4EA05A25466BF4006B3E9E /* UIBarButtonItem+extension.swift */,
+				6B4EA05B25466BF4006B3E9E /* UIScrollView+extension.swift */,
+				6B4EA05C25466BF4006B3E9E /* UITextField+extension.swift */,
+				6B4EA05D25466BF4006B3E9E /* UIViewController+WL.swift */,
+				6B4EA05E25466BF4006B3E9E /* UITableView+extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6B4EA07625466C13006B3E9E /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA07725466C13006B3E9E /* MBProgressHUD.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		6B4EA07825466C13006B3E9E /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA07925466C13006B3E9E /* LYDatePickerView.xib */,
+				6B4EA07A25466C13006B3E9E /* LYDatePickerView.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		6B4EA07B25466C13006B3E9E /* YSModal */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA07C25466C13006B3E9E /* YSModal_presentedNavC.swift */,
+				6B4EA07D25466C13006B3E9E /* YSBase */,
+				6B4EA09025466C13006B3E9E /* YSModal_animator.swift */,
+				6B4EA09125466C13006B3E9E /* YSModal_direction.swift */,
+				6B4EA09225466C13006B3E9E /* YSModal_presentingVC.swift */,
+				6B4EA09325466C13006B3E9E /* YSModal_presentedVC.swift */,
+			);
+			path = YSModal;
+			sourceTree = "<group>";
+		};
+		6B4EA07D25466C13006B3E9E /* YSBase */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA07E25466C13006B3E9E /* LICENSE */,
+				6B4EA07F25466C13006B3E9E /* README.md */,
+				6B4EA08025466C13006B3E9E /* YSBase */,
+			);
+			path = YSBase;
+			sourceTree = "<group>";
+		};
+		6B4EA08025466C13006B3E9E /* YSBase */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08125466C13006B3E9E /* YSBase */,
+			);
+			path = YSBase;
+			sourceTree = "<group>";
+		};
+		6B4EA08125466C13006B3E9E /* YSBase */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08225466C13006B3E9E /* YSBase */,
+			);
+			path = YSBase;
+			sourceTree = "<group>";
+		};
+		6B4EA08225466C13006B3E9E /* YSBase */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08325466C13006B3E9E /* LoadingView */,
+				6B4EA08725466C13006B3E9E /* Controller */,
+				6B4EA08925466C13006B3E9E /* Cell */,
+			);
+			path = YSBase;
+			sourceTree = "<group>";
+		};
+		6B4EA08325466C13006B3E9E /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08425466C13006B3E9E /* YSLoadingIndicatorView.swift */,
+				6B4EA08525466C13006B3E9E /* YSLoadingIndicatorView_default.swift */,
+				6B4EA08625466C13006B3E9E /* YSBaseV_loadingIndicator.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		6B4EA08725466C13006B3E9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08825466C13006B3E9E /* YSBaseVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B4EA08925466C13006B3E9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA08A25466C13006B3E9E /* YSBaseCell_tbv_subtitle.swift */,
+				6B4EA08B25466C13006B3E9E /* YSBaseCell_tbv_value2.swift */,
+				6B4EA08C25466C13006B3E9E /* YSBaseCell_colv_headerFooter.swift */,
+				6B4EA08D25466C13006B3E9E /* YSBaseCell_colv.swift */,
+				6B4EA08E25466C13006B3E9E /* YSBaseCell_tbv_default.swift */,
+				6B4EA08F25466C13006B3E9E /* YSBaseCell_tbv_value1.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6B4EA09425466C14006B3E9E /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA09525466C14006B3E9E /* DefaultKeys.swift */,
+				6B4EA09625466C14006B3E9E /* PlistProperty.swift */,
+				6B4EA09725466C14006B3E9E /* Plist.swift */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		6B4EA09825466C14006B3E9E /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA09925466C14006B3E9E /* HeaderLoading.xib */,
+				6B4EA09A25466C14006B3E9E /* RefreshHeader.swift */,
+				6B4EA09B25466C14006B3E9E /* HeaderLoading.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		6B4EA09C25466C14006B3E9E /* ExpandClickButton */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA09D25466C14006B3E9E /* ExpandClickButton.swift */,
+			);
+			path = ExpandClickButton;
+			sourceTree = "<group>";
+		};
+		6B4EA09E25466C14006B3E9E /* SortButton */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA09F25466C14006B3E9E /* SortButton.swift */,
+			);
+			path = SortButton;
+			sourceTree = "<group>";
+		};
+		6B4EA0A025466C14006B3E9E /* YXPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0A125466C14006B3E9E /* YXCityModel.swift */,
+				6B4EA0A225466C14006B3E9E /* YXPickerListCell.swift */,
+				6B4EA0A325466C14006B3E9E /* YXPickerTitleCell.swift */,
+				6B4EA0A425466C14006B3E9E /* city.json */,
+				6B4EA0A525466C14006B3E9E /* YXCompatible.swift */,
+				6B4EA0A625466C14006B3E9E /* YXPickerTitleView.swift */,
+				6B4EA0A725466C14006B3E9E /* UIView-Extension.swift */,
+				6B4EA0A825466C14006B3E9E /* YXPickerListView.swift */,
+				6B4EA0A925466C14006B3E9E /* YXAssets.xcassets */,
+				6B4EA0AA25466C14006B3E9E /* YXChooseView.swift */,
+			);
+			path = YXPickerView;
+			sourceTree = "<group>";
+		};
+		6B4EA0AB25466C14006B3E9E /* Marquee */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0AC25466C14006B3E9E /* Marquee.swift */,
+				6B4EA0AD25466C14006B3E9E /* LYAnnounceView.swift */,
+			);
+			path = Marquee;
+			sourceTree = "<group>";
+		};
+		6B4EA0AE25466C15006B3E9E /* QRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0AF25466C15006B3E9E /* QRCodeScannerController.swift */,
+			);
+			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
+		6B4EA0B025466C15006B3E9E /* OpenCameraAndAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0B125466C15006B3E9E /* OpenCameraAndAlbum.swift */,
+			);
+			path = OpenCameraAndAlbum;
+			sourceTree = "<group>";
+		};
+		6B4EA0B225466C15006B3E9E /* AddMinusView */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0B325466C15006B3E9E /* LYAddMinusView.swift */,
+			);
+			path = AddMinusView;
+			sourceTree = "<group>";
+		};
+		6B4EA0E025466C23006B3E9E /* UserPreference */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0E125466C23006B3E9E /* UserPreference.swift */,
+				6B4EA0E225466C23006B3E9E /* UserModel.swift */,
+			);
+			path = UserPreference;
+			sourceTree = "<group>";
+		};
+		6B4EA0E625466C36006B3E9E /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA14325466C36006B3E9E /* Model */,
+				6B4EA0E725466C36006B3E9E /* Home */,
+				6B682A962553E29D00E5EDBF /* H5Activity */,
+				6BC5D837256DF57B00823892 /* Yxbp(优选专区) */,
+				6B2F1E6F256C96CE00747B25 /* Yaojuhui */,
+				6BC5D81F256DE3E000823892 /* Ppzq */,
+				6B4EA11625466C36006B3E9E /* Goods */,
+				6B4EA10525466C36006B3E9E /* GoodsSearch */,
+				6B4EA0F225466C36006B3E9E /* ModalCartController */,
+				6B4EA0F925466C36006B3E9E /* ModalSortController */,
+				6B9CA07A257875BD000A8802 /* ModalQuanController */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		6B4EA0E725466C36006B3E9E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0E825466C36006B3E9E /* LYHomeController.swift */,
+				6B4EA0E925466C36006B3E9E /* ViewModel */,
+				6B4EA0EB25466C36006B3E9E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6B4EA0E925466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0EA25466C36006B3E9E /* LYHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA0EB25466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B70B0A12552437500A74F37 /* LYHomeView.swift */,
+				6B70B0A4255244F300A74F37 /* LYHomeNaviView.swift */,
+				6B70B0A7255244FB00A74F37 /* LYHomeNaviView.xib */,
+				6BA42AC22554F60E00B88B85 /* cell */,
+				6BA42AC12554F60700B88B85 /* header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA0F225466C36006B3E9E /* ModalCartController */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0F325466C36006B3E9E /* ViewModel */,
+				6B4EA0F525466C36006B3E9E /* View */,
+				6B4EA0F825466C36006B3E9E /* LYModalCartController.swift */,
+			);
+			path = ModalCartController;
+			sourceTree = "<group>";
+		};
+		6B4EA0F325466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0F425466C36006B3E9E /* LYModalCartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA0F525466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0F625466C36006B3E9E /* LYModalCartView.xib */,
+				6B4EA0F725466C36006B3E9E /* LYModalCartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA0F925466C36006B3E9E /* ModalSortController */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0FA25466C36006B3E9E /* ViewModel */,
+				6B4EA0FD25466C36006B3E9E /* Model */,
+				6B4EA0FF25466C36006B3E9E /* View */,
+				6B4EA10425466C36006B3E9E /* LYModalSortController.swift */,
+				6B4EA0FC25466C36006B3E9E /* LYModalSortController.xib */,
+			);
+			path = ModalSortController;
+			sourceTree = "<group>";
+		};
+		6B4EA0FA25466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0FB25466C36006B3E9E /* LYModalSortCategoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA0FD25466C36006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA0FE25466C36006B3E9E /* LYGoodsCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA0FF25466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA10025466C36006B3E9E /* LYModalSortRightCell.swift */,
+				6B4EA10225466C36006B3E9E /* LYModalSortRightCell.xib */,
+				6B4EA10325466C36006B3E9E /* LYModalSortLeftCell.swift */,
+				6B4EA10125466C36006B3E9E /* LYModalSortLeftCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA10525466C36006B3E9E /* GoodsSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA10625466C36006B3E9E /* LYGoodsSearchController.swift */,
+			);
+			path = GoodsSearch;
+			sourceTree = "<group>";
+		};
+		6B4EA11625466C36006B3E9E /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA11725466C36006B3E9E /* ViewModel */,
+				6B4EA11925466C36006B3E9E /* View */,
+				6B4EA11D25466C36006B3E9E /* LYGoodsController.swift */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		6B4EA11725466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA11825466C36006B3E9E /* LYGoodsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA11925466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BD4CC162577762F006B3555 /* Cell */,
+				6B4042E92574847300252421 /* LYGoodsView.swift */,
+				6B4EA11C25466C36006B3E9E /* LYGoodsCartView.swift */,
+				6BD4CC10257768C3006B3555 /* LYGoodsDetailView.swift */,
+				6BD4CC13257768CC006B3555 /* LYGoodsDetailView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA11E25466C36006B3E9E /* Cart(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13625466C36006B3E9E /* Cart */,
+				6B4EA12A25466C36006B3E9E /* CartOrderConfirm */,
+				6B4EA14025466C36006B3E9E /* CartOrderSuccess */,
+			);
+			path = "Cart(购物车)";
+			sourceTree = "<group>";
+		};
+		6B4EA12A25466C36006B3E9E /* CartOrderConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA12B25466C36006B3E9E /* ViewModel */,
+				6B4EA12D25466C36006B3E9E /* Model */,
+				6B4EA12F25466C36006B3E9E /* LYCartOrderConfirmController.xib */,
+				6B4EA13025466C36006B3E9E /* View */,
+				6B4EA13525466C36006B3E9E /* LYCartOrderConfirmController.swift */,
+			);
+			path = CartOrderConfirm;
+			sourceTree = "<group>";
+		};
+		6B4EA12B25466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA12C25466C36006B3E9E /* LYCartOrderConfirmViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA12D25466C36006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA12E25466C36006B3E9E /* LYCartOrderCommitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA13025466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13125466C36006B3E9E /* LYCartOrderConfirmCell.xib */,
+				6B4EA13225466C36006B3E9E /* LYCartOrderConfirmCell.swift */,
+				6B4EA13325466C36006B3E9E /* LYCartOrderConfirmFooter.swift */,
+				6B4EA13425466C36006B3E9E /* LYCartOrderConfirmFooter.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA13625466C36006B3E9E /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13725466C36006B3E9E /* ViewModel */,
+				6B4EA13B25466C36006B3E9E /* Model */,
+				6B4EA13D25466C36006B3E9E /* View */,
+				6B4EA13A25466C36006B3E9E /* LYCartController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		6B4EA13725466C36006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13825466C36006B3E9E /* LYCartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA13B25466C36006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13C25466C36006B3E9E /* LYCartCheckModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA13D25466C36006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA13E25466C36006B3E9E /* LYCartCell.xib */,
+				6B4EA13F25466C36006B3E9E /* LYCartCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA14025466C36006B3E9E /* CartOrderSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA14125466C36006B3E9E /* LYCartOrderSuccessController.xib */,
+				6B4EA14225466C36006B3E9E /* LYCartOrderSuccessController.swift */,
+			);
+			path = CartOrderSuccess;
+			sourceTree = "<group>";
+		};
+		6B4EA14325466C36006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA22B2546A371006B3E9E /* LYLaunchModel.swift */,
+				6B682A892553AA6500E5EDBF /* LYHomeADModel.swift */,
+				6BCC0DFD25EE2C67009F5DB4 /* LYMiaoshaModel.swift */,
+				6B4EA14725466C36006B3E9E /* LYGoodsModel.swift */,
+				6B8CE4B5255E62280007BB76 /* LYBrandModel.swift */,
+				6BE4A35B25625519008B478F /* LYYjhNaviModel.swift */,
+				6BDA620A2565041D00D385F5 /* LYPayModel.swift */,
+				6BDA620D2565055400D385F5 /* LYCouponModel.swift */,
+				6BC5D844256DFA9A00823892 /* LYYxbpAdModel.swift */,
+				6B1B4B9A2579CB2700663C68 /* LYAddCartParameterModel.swift */,
+				6B4EA14425466C36006B3E9E /* LYAddressModel.swift */,
+				6B4EA14525466C36006B3E9E /* LYGoodsTagModel.swift */,
+				6B4EA14625466C36006B3E9E /* LYGoodsImageModel.swift */,
+				6B4EA14825466C36006B3E9E /* LYPaymentModel.swift */,
+				6B4EA14925466C36006B3E9E /* LYClientModel.swift */,
+				6B4EA14A25466C36006B3E9E /* LYGoodsSearchParameterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA14B25466C37006B3E9E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DEEA254BAFD20063FC57 /* Model */,
+				6B4EA2552546C931006B3E9E /* Login */,
+				6B4EA2562546C93E006B3E9E /* Register */,
+				6B6C4485254AAFF4009D4A54 /* RegisterInfo */,
+				6B45DF09254BFB250063FC57 /* RegisterSuccess */,
+				6B45DF1B254C0F6F0063FC57 /* RegisterProtocal */,
+				6BACF61A254EB58600951C57 /* MultiRegisterInfo */,
+				6B127269254F1516008E26F2 /* MultiRegisterSuccess */,
+				6B4E6FB72551253D0040DE31 /* ForgetPassword */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6B4EA14C25466C37006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA14D25466C37006B3E9E /* LYLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA14F25466C37006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BE6EE8C254FEFC600C31C83 /* LYLoginView.swift */,
+				6BE6EE8F254FEFD000C31C83 /* LYLoginView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA15125466C37006B3E9E /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15225466C37006B3E9E /* AccountManage */,
+				6B4EA15525466C37006B3E9E /* ModifyPassword */,
+				6B4EA15A25466C37006B3E9E /* Mine */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		6B4EA15225466C37006B3E9E /* AccountManage */ = {
+			isa = PBXGroup;
+			children = (
+				6BE4A31B256223F4008B478F /* ViewModel */,
+				6B4EA15325466C37006B3E9E /* LYAccountManageController.xib */,
+				6B4EA15425466C37006B3E9E /* LYAccountManageController.swift */,
+			);
+			path = AccountManage;
+			sourceTree = "<group>";
+		};
+		6B4EA15525466C37006B3E9E /* ModifyPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15625466C37006B3E9E /* ViewModel */,
+				6B4EA15825466C37006B3E9E /* LYMineModifyPasswordController.xib */,
+				6B4EA15925466C37006B3E9E /* LYMineModifyPasswordController.swift */,
+			);
+			path = ModifyPassword;
+			sourceTree = "<group>";
+		};
+		6B4EA15625466C37006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15725466C37006B3E9E /* LYMineModifyPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA15A25466C37006B3E9E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15B25466C37006B3E9E /* ViewModel */,
+				6B4EA15D25466C37006B3E9E /* Model */,
+				6B4EA15F25466C37006B3E9E /* LYMineController.swift */,
+				6B4EA16025466C37006B3E9E /* LYMineController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		6B4EA15B25466C37006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15C25466C37006B3E9E /* LYMineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA15D25466C37006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA15E25466C37006B3E9E /* LYMineOrderHeaderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA16125466C37006B3E9E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16325466C37006B3E9E /* BaseViewController.swift */,
+				6B682A972553E55D00E5EDBF /* BaseWebViewController.swift */,
+				6B4EA16425466C37006B3E9E /* BaseTableViewCell.swift */,
+				6B4EA16525466C37006B3E9E /* BaseViewModel.swift */,
+				6B4EA16625466C37006B3E9E /* BaseCollectionViewCell.swift */,
+				6B7FF65D255A7A97001E1124 /* BaseCollectionReusableView.swift */,
+				6B4EA16725466C37006B3E9E /* BaseNavigationController.swift */,
+				6B4EA16225466C37006B3E9E /* ErrorProtocal.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6B4EA16825466C37006B3E9E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16925466C37006B3E9E /* LYTabBarController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		6B4EA16A25466C37006B3E9E /* Order(订单) */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16B25466C37006B3E9E /* Order */,
+				6B4EA17825466C37006B3E9E /* OrderDetai */,
+			);
+			path = "Order(订单)";
+			sourceTree = "<group>";
+		};
+		6B4EA16B25466C37006B3E9E /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16C25466C37006B3E9E /* ViewModel */,
+				6B4EA16E25466C37006B3E9E /* Model */,
+				6B4EA17225466C37006B3E9E /* View */,
+				6B4EA17725466C37006B3E9E /* LYOrderController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		6B4EA16C25466C37006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16D25466C37006B3E9E /* LYOrderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA16E25466C37006B3E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA16F25466C37006B3E9E /* LYOrderModel.swift */,
+				6B4EA17025466C37006B3E9E /* LYOrderGoodModel.swift */,
+				6B4EA17125466C37006B3E9E /* LYOrderSearchParameterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4EA17225466C37006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA17325466C37006B3E9E /* LYOrderSelectSearchView.xib */,
+				6B4EA17425466C37006B3E9E /* LYOrderCell.swift */,
+				6B4EA17525466C37006B3E9E /* LYOrderCell.xib */,
+				6B4EA17625466C37006B3E9E /* LYOrderSelectSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA17825466C37006B3E9E /* OrderDetai */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA17925466C37006B3E9E /* ViewModel */,
+				6B4EA17B25466C37006B3E9E /* LYOrderDetailController.swift */,
+				6B4EA17C25466C37006B3E9E /* View */,
+			);
+			path = OrderDetai;
+			sourceTree = "<group>";
+		};
+		6B4EA17925466C37006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA17A25466C37006B3E9E /* LYOrderDetaiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA17C25466C37006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA17D25466C37006B3E9E /* LYOrderDetaiInfoHeader.xib */,
+				6B4EA17E25466C37006B3E9E /* LYOrderDetailInfoFooter.xib */,
+				6B4EA17F25466C37006B3E9E /* LYOrderDetaiInfoHeader.swift */,
+				6B4EA18025466C37006B3E9E /* LYOrderDetailInfoFooter.swift */,
+				6B4EA18125466C37006B3E9E /* LYOrderDetailGoodsListCell.swift */,
+				6B4EA18225466C37006B3E9E /* LYOrderDetailGoodsListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4EA2552546C931006B3E9E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA14C25466C37006B3E9E /* ViewModel */,
+				6B4EA14F25466C37006B3E9E /* View */,
+				6B4EA15025466C37006B3E9E /* LYLoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6B4EA2562546C93E006B3E9E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA2582546C960006B3E9E /* View */,
+				6B4EA2572546C959006B3E9E /* ViewModel */,
+				6B4EA2592546C996006B3E9E /* LYRegisterController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		6B4EA2572546C959006B3E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BF735612547ADB800C2196A /* LYRegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4EA2582546C960006B3E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4EA25D2546CA4F006B3E9E /* LYRegisterView.swift */,
+				6B4EA2602546CA5B006B3E9E /* LYRegisterView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B682A962553E29D00E5EDBF /* H5Activity */ = {
+			isa = PBXGroup;
+			children = (
+				6BDA62022564EEB500D385F5 /* ViewModel */,
+				6BDA61FF2564CF6E00D385F5 /* LYH5ActivityController.swift */,
+			);
+			path = H5Activity;
+			sourceTree = "<group>";
+		};
+		6B6C4485254AAFF4009D4A54 /* RegisterInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C4487254AB038009D4A54 /* ViewModel */,
+				6B6C4486254AB02C009D4A54 /* View */,
+				6B6C44DE254ABBEA009D4A54 /* LYRegisterInfoController.swift */,
+			);
+			path = RegisterInfo;
+			sourceTree = "<group>";
+		};
+		6B6C4486254AB02C009D4A54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C4488254AB0B7009D4A54 /* LYRegisterInfoView.swift */,
+				6B6C448C254AB0C1009D4A54 /* LYRegisterInfoView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B6C4487254AB038009D4A54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DEE7254BAD450063FC57 /* LYRegisterInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B88998125EF5D3900157FEA /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				6B88998225EF5D3900157FEA /* CountDown.h */,
+				6B88998325EF5D3900157FEA /* CountDown.m */,
+			);
+			path = CountDown;
+			sourceTree = "<group>";
+		};
+		6B9CA07A257875BD000A8802 /* ModalQuanController */ = {
+			isa = PBXGroup;
+			children = (
+				6B9CA07C257875EC000A8802 /* View */,
+				6B9CA07B257875E4000A8802 /* ViewModel */,
+				6B9CA07D25787604000A8802 /* LYModalQuanController.swift */,
+			);
+			path = ModalQuanController;
+			sourceTree = "<group>";
+		};
+		6B9CA07B257875E4000A8802 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B9CA09D2578C6FC000A8802 /* LYModalQuanViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B9CA07C257875EC000A8802 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B9CA08125787671000A8802 /* LYModalQuanView.swift */,
+				6B9CA0842578767B000A8802 /* LYModalQuanView.xib */,
+				6B9CA0982578C18C000A8802 /* LYModalQuanCell.swift */,
+				6B9CA0992578C18C000A8802 /* LYModalQuanCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BA42AC12554F60700B88B85 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				6B682A862553983500E5EDBF /* LYHomeBannerView.swift */,
+				6BCC0E0025EE37E2009F5DB4 /* LYHomeMiaoshaHeader.swift */,
+				6BCC0E0125EE37E2009F5DB4 /* LYHomeMiaoshaHeader.xib */,
+				6BA42AC32554F65300B88B85 /* LYHomeNormalHeader.swift */,
+				6BA42AC42554F65300B88B85 /* LYHomeNormalHeader.xib */,
+				6B28385B25F209C4001E26AB /* LYHomeNormalFooter.swift */,
+				6B28385C25F209C4001E26AB /* LYHomeNormalFooter.xib */,
+				6B28386025F2151F001E26AB /* LYHomeRoundHeader.swift */,
+				6B28386125F2151F001E26AB /* LYHomeRoundHeader.xib */,
+				6B8CE4B8255E6C570007BB76 /* LYHomeWntjHeader.swift */,
+				6B8CE4B9255E6C570007BB76 /* LYHomeWntjHeader.xib */,
+				6BA3A154255D145700C27CF7 /* LYHomeYjhHeader.swift */,
+				6BA3A155255D145700C27CF7 /* LYHomeYjhHeader.xib */,
+				6BE4A35525624ADE008B478F /* LYHomeYjhFooter.swift */,
+				6BE4A35625624ADE008B478F /* LYHomeYjhFooter.xib */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		6BA42AC22554F60E00B88B85 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				6BA42A942554E36200B88B85 /* LYHomeIconCell.swift */,
+				6BA42A952554E36200B88B85 /* LYHomeIconCell.xib */,
+				6B7FF665255A8852001E1124 /* LYHomeLYZXCell.swift */,
+				6B7FF666255A8852001E1124 /* LYHomeLYZXCell.xib */,
+				6B691E54255A8EA200924FBB /* LYHomeLYZXIconCell.swift */,
+				6B691E55255A8EA200924FBB /* LYHomeLYZXIconCell.xib */,
+				6BA3A136255CCBA300C27CF7 /* LYHomeChoujiangCell.swift */,
+				6BA3A137255CCBA300C27CF7 /* LYHomeChoujiangCell.xib */,
+				6BE4A37F25626E6B008B478F /* LYHomeYjhCell.swift */,
+				6BE4A38025626E6B008B478F /* LYHomeYjhCell.xib */,
+				6B8CE4AB255E591E0007BB76 /* LYHomePpzqCell.swift */,
+				6B8CE4AC255E591E0007BB76 /* LYHomePpzqCell.xib */,
+				6B8CE4B0255E5CD40007BB76 /* LYHomePpzqIconCell.swift */,
+				6B8CE4B1255E5CD40007BB76 /* LYHomePpzqIconCell.xib */,
+				6B8CE4BD255E6E1D0007BB76 /* LYHomeWntjCell.swift */,
+				6B8CE4BE255E6E1D0007BB76 /* LYHomeWntjCell.xib */,
+				6B88998625EF6B8800157FEA /* LYHomeMiaoshaCell.swift */,
+				6B88998725EF6B8800157FEA /* LYHomeMiaoshaCell.xib */,
+				6B88998B25EF76A200157FEA /* LYHomeMiaoshaItemCell.swift */,
+				6B88998C25EF76A200157FEA /* LYHomeMiaoshaItemCell.xib */,
+				6BA3A14F255D10D500C27CF7 /* LYHomeMiddleCell.swift */,
+				6BA3A150255D10D500C27CF7 /* LYHomeMiddleCell.xib */,
+				6BC41EF325F0D272008D712A /* LYHomeMiddleItem1Cell.swift */,
+				6BC41EF425F0D272008D712A /* LYHomeMiddleItem1Cell.xib */,
+				6BC41EF825F0D4CE008D712A /* LYHomeMiddleItem2Cell.swift */,
+				6BC41EF925F0D4CE008D712A /* LYHomeMiddleItem2Cell.xib */,
+				6B28383925F1CD08001E26AB /* LYHomeCjthCell.swift */,
+				6B28383A25F1CD08001E26AB /* LYHomeCjthCell.xib */,
+				6B28387325F2203D001E26AB /* LYHomeCjthGoodsCell.swift */,
+				6B28387425F2203D001E26AB /* LYHomeCjthGoodsCell.xib */,
+				6B28386525F21D6C001E26AB /* LYHomeCjthGoodsItemCell.swift */,
+				6B28386625F21D6C001E26AB /* LYHomeCjthGoodsItemCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		6BACF61A254EB58600951C57 /* MultiRegisterInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6BACF61C254EB5C000951C57 /* ViewModel */,
+				6BACF61B254EB5B800951C57 /* View */,
+				6BACF61D254EB60000951C57 /* LYMultiRegisterInfoController.swift */,
+			);
+			path = MultiRegisterInfo;
+			sourceTree = "<group>";
+		};
+		6BACF61B254EB5B800951C57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B127254254ECE07008E26F2 /* LYMultiRegisterInfoView.swift */,
+				6B127257254ECE1A008E26F2 /* LYMultiRegisterInfoView.xib */,
+				6B127261254EDF0C008E26F2 /* LYMultiRegisterInfoCell.swift */,
+				6B127262254EDF0C008E26F2 /* LYMultiRegisterInfoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BACF61C254EB5C000951C57 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BACF627254EB6DB00951C57 /* LYMultiRegisterInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BC4A74E2586FFD100C09E16 /* Sort(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4A7502586FFFA00C09E16 /* ViewModel */,
+				6BC4A74F2586FFF300C09E16 /* View */,
+				6BC4A7512587003F00C09E16 /* LYSortController.swift */,
+			);
+			path = "Sort(分类)";
+			sourceTree = "<group>";
+		};
+		6BC4A74F2586FFF300C09E16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4A7552587009400C09E16 /* LYSortView.swift */,
+				6BC4A7582587009B00C09E16 /* LYSortView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BC4A7502586FFFA00C09E16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4A75B2587140700C09E16 /* LYSortViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BC5D81F256DE3E000823892 /* Ppzq */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D825256DE47F00823892 /* View */,
+				6BC5D820256DE40300823892 /* ViewModel */,
+				6BC5D821256DE47B00823892 /* LYPpzqController.swift */,
+			);
+			path = Ppzq;
+			sourceTree = "<group>";
+		};
+		6BC5D820256DE40300823892 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D834256DEB3500823892 /* LYPpzqViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BC5D825256DE47F00823892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D826256DE49400823892 /* LYPpzqView.swift */,
+				6BC5D82A256DE6AB00823892 /* LYPpzqHeader.swift */,
+				6BC5D82B256DE6AB00823892 /* LYPpzqHeader.xib */,
+				6BC5D82F256DE71700823892 /* LYPpzqCell.swift */,
+				6BC5D830256DE71700823892 /* LYPpzqCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BC5D837256DF57B00823892 /* Yxbp(优选专区) */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D839256DF59100823892 /* View */,
+				6BC5D838256DF58A00823892 /* ViewModel */,
+				6BC5D83A256DF5BD00823892 /* LYYxbpController.swift */,
+			);
+			path = "Yxbp(优选专区)";
+			sourceTree = "<group>";
+		};
+		6BC5D838256DF58A00823892 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D841256DF72600823892 /* LYYxbpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BC5D839256DF59100823892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5D83E256DF71400823892 /* LYYxbpView.swift */,
+				6BF19F94256E3D3A0056AA15 /* LYYxbpBannerHeader.swift */,
+				6BF19F95256E3D3A0056AA15 /* LYYxbpBannerHeader.xib */,
+				6B3814F8256E472D0026F2A7 /* LYYxbpNormalHeader.swift */,
+				6B3814F9256E472D0026F2A7 /* LYYxbpNormalHeader.xib */,
+				6B3814F3256E41200026F2A7 /* LYYxbpYxttCell.swift */,
+				6B3814F4256E41200026F2A7 /* LYYxbpYxttCell.xib */,
+				6B3814FD256E55F80026F2A7 /* LYYxbpYxtjCell.swift */,
+				6B3814FE256E55F80026F2A7 /* LYYxbpYxtjCell.xib */,
+				6B381502256E59B30026F2A7 /* LYYxbpMoreYxCell.swift */,
+				6B381503256E59B30026F2A7 /* LYYxbpMoreYxCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BD4CC162577762F006B3555 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B4042EC2574942800252421 /* LYGoodsBannerCell.swift */,
+				6B4042ED2574942800252421 /* LYGoodsBannerCell.xib */,
+				6B2309C32574D7BE003CFB53 /* LYGoodsGuigeCell.swift */,
+				6B2309C42574D7BE003CFB53 /* LYGoodsGuigeCell.xib */,
+				6B2309C92575C7A7003CFB53 /* LYGoodsTagCell.swift */,
+				6B2309CA2575C7A7003CFB53 /* LYGoodsTagCell.xib */,
+				6B2309E32575EA3C003CFB53 /* LYGoodsQuanCell.swift */,
+				6B2309E42575EA3C003CFB53 /* LYGoodsQuanCell.xib */,
+				6B230A1D257618B9003CFB53 /* LYGoodsQuanItemCell.swift */,
+				6B230A1E257618B9003CFB53 /* LYGoodsQuanItemCell.xib */,
+				6BD4CC1D257781AA006B3555 /* LYGoodsTuijianCell.swift */,
+				6BD4CC1E257781AA006B3555 /* LYGoodsTuijianCell.xib */,
+				6BD4CC2225778387006B3555 /* LYGoodsTuijianItemCell.swift */,
+				6BD4CC2325778387006B3555 /* LYGoodsTuijianItemCell.xib */,
+				6BD4CC1725777664006B3555 /* LYGoodsDetailCell.swift */,
+				6BD4CC1825777664006B3555 /* LYGoodsDetailCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6BDA62022564EEB500D385F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BDA62032564EED400D385F5 /* LYH5ActivityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BE4A31B256223F4008B478F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BE4A31C25622411008B478F /* LYAccountManageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B19DF4325465BB8006F3EE3 /* LongYi_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B19DF5825465BBA006F3EE3 /* Build configuration list for PBXNativeTarget "LongYi_Swift" */;
+			buildPhases = (
+				F4E17DF2C7CAA0B96C77358B /* [CP] Check Pods Manifest.lock */,
+				6B19DF4025465BB8006F3EE3 /* Sources */,
+				6B19DF4125465BB8006F3EE3 /* Frameworks */,
+				6B19DF4225465BB8006F3EE3 /* Resources */,
+				A87144CC9CD3C4EDF39FE9E7 /* [CP] Embed Pods Frameworks */,
+				92D12661D191D4A5AFE79143 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongYi_Swift;
+			productName = LongYi_Swift;
+			productReference = 6B19DF4425465BB8006F3EE3 /* LongYi_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B19DF3C25465BB8006F3EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6B19DF4325465BB8006F3EE3 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1210;
+					};
+				};
+			};
+			buildConfigurationList = 6B19DF3F25465BB8006F3EE3 /* Build configuration list for PBXProject "LongYi_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B19DF3B25465BB8006F3EE3;
+			productRefGroup = 6B19DF4525465BB8006F3EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B19DF4325465BB8006F3EE3 /* LongYi_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B19DF4225465BB8006F3EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4E6FC22551292B0040DE31 /* LYForgetPasswordView.xib in Resources */,
+				6B381505256E59B30026F2A7 /* LYYxbpMoreYxCell.xib in Resources */,
+				6BD4CC20257781AA006B3555 /* LYGoodsTuijianCell.xib in Resources */,
+				6B4EA2612546CA5B006B3E9E /* LYRegisterView.xib in Resources */,
+				6B4EA1AF25466C37006B3E9E /* LYCartOrderConfirmController.xib in Resources */,
+				6B4EA19025466C37006B3E9E /* LYModalSortController.xib in Resources */,
+				6B8CE4AE255E591E0007BB76 /* LYHomePpzqCell.xib in Resources */,
+				6B4EA19425466C37006B3E9E /* LYModalSortRightCell.xib in Resources */,
+				6B4EA1E725466C37006B3E9E /* LYOrderDetailGoodsListCell.xib in Resources */,
+				6B3814FB256E472D0026F2A7 /* LYYxbpNormalHeader.xib in Resources */,
+				6BA3A157255D145700C27CF7 /* LYHomeYjhHeader.xib in Resources */,
+				6B6C448D254AB0C1009D4A54 /* LYRegisterInfoView.xib in Resources */,
+				6B4EA1B025466C37006B3E9E /* LYCartOrderConfirmCell.xib in Resources */,
+				6BE4A35825624ADE008B478F /* LYHomeYjhFooter.xib in Resources */,
+				6B4EA1DB25466C37006B3E9E /* LYOrderSelectSearchView.xib in Resources */,
+				6B88998925EF6B8800157FEA /* LYHomeMiaoshaCell.xib in Resources */,
+				6B4EA1BB25466C37006B3E9E /* LYCartOrderSuccessController.xib in Resources */,
+				6B8CE4BB255E6C570007BB76 /* LYHomeWntjHeader.xib in Resources */,
+				6BE6EE90254FEFD100C31C83 /* LYLoginView.xib in Resources */,
+				6BC5D832256DE71700823892 /* LYPpzqCell.xib in Resources */,
+				6B4EA1E225466C37006B3E9E /* LYOrderDetaiInfoHeader.xib in Resources */,
+				6B9CA0852578767B000A8802 /* LYModalQuanView.xib in Resources */,
+				6B4EA1B925466C37006B3E9E /* LYCartCell.xib in Resources */,
+				6B12727E254F16F3008E26F2 /* LYMultiRegisterFooterView.xib in Resources */,
+				6B2309C62574D7BE003CFB53 /* LYGoodsGuigeCell.xib in Resources */,
+				6B4EA1CA25466C37006B3E9E /* LYMineModifyPasswordController.xib in Resources */,
+				6B19DF5425465BBA006F3EE3 /* LaunchScreen.storyboard in Resources */,
+				6BC5D82D256DE6AB00823892 /* LYPpzqHeader.xib in Resources */,
+				6B4EA1DD25466C37006B3E9E /* LYOrderCell.xib in Resources */,
+				6B28385E25F209C4001E26AB /* LYHomeNormalFooter.xib in Resources */,
+				6B9CA09B2578C18C000A8802 /* LYModalQuanCell.xib in Resources */,
+				6B4EA0D825466C15006B3E9E /* YXAssets.xcassets in Resources */,
+				6B4EA18C25466C37006B3E9E /* LYModalCartView.xib in Resources */,
+				6BE4A38225626E6B008B478F /* LYHomeYjhCell.xib in Resources */,
+				6B4EA0CB25466C15006B3E9E /* HeaderLoading.xib in Resources */,
+				6B691E57255A8EA200924FBB /* LYHomeLYZXIconCell.xib in Resources */,
+				6B4E6FCE25513EBC0040DE31 /* LYForgetPasswordSetView.xib in Resources */,
+				6B28386825F21D6C001E26AB /* LYHomeCjthGoodsItemCell.xib in Resources */,
+				6BD4CC1A25777664006B3555 /* LYGoodsDetailCell.xib in Resources */,
+				6B88998E25EF76A200157FEA /* LYHomeMiaoshaItemCell.xib in Resources */,
+				6B4EA1CF25466C37006B3E9E /* LYMineController.xib in Resources */,
+				6B7FF668255A8852001E1124 /* LYHomeLYZXCell.xib in Resources */,
+				6B4EA1E325466C37006B3E9E /* LYOrderDetailInfoFooter.xib in Resources */,
+				6BA42AC62554F65300B88B85 /* LYHomeNormalHeader.xib in Resources */,
+				6B45DF13254BFB9C0063FC57 /* LYRegisterSuccessView.xib in Resources */,
+				6BC4A7592587009B00C09E16 /* LYSortView.xib in Resources */,
+				6B19DF5125465BBA006F3EE3 /* Assets.xcassets in Resources */,
+				6B4EA2522546B6D5006B3E9E /* launch.jpg in Resources */,
+				6BCC0E0325EE37E2009F5DB4 /* LYHomeMiaoshaHeader.xib in Resources */,
+				6B70B0A8255244FB00A74F37 /* LYHomeNaviView.xib in Resources */,
+				6B4EA0B925466C15006B3E9E /* README.md in Resources */,
+				6B381500256E55F90026F2A7 /* LYYxbpYxtjCell.xib in Resources */,
+				6BD4CC14257768CC006B3555 /* LYGoodsDetailView.xib in Resources */,
+				6B8CE4B3255E5CD40007BB76 /* LYHomePpzqIconCell.xib in Resources */,
+				6BA3A139255CCBA300C27CF7 /* LYHomeChoujiangCell.xib in Resources */,
+				6BD4CC2525778387006B3555 /* LYGoodsTuijianItemCell.xib in Resources */,
+				6B4EA0D325466C15006B3E9E /* city.json in Resources */,
+				6B4E6FD725514BBB0040DE31 /* LYForgetPasswordSuccessView.xib in Resources */,
+				6B28387625F2203D001E26AB /* LYHomeCjthGoodsCell.xib in Resources */,
+				6B127264254EDF0C008E26F2 /* LYMultiRegisterInfoCell.xib in Resources */,
+				6B28386325F2151F001E26AB /* LYHomeRoundHeader.xib in Resources */,
+				6B4EA1B325466C37006B3E9E /* LYCartOrderConfirmFooter.xib in Resources */,
+				6B230A20257618B9003CFB53 /* LYGoodsQuanItemCell.xib in Resources */,
+				6B2309E62575EA3C003CFB53 /* LYGoodsQuanCell.xib in Resources */,
+				6B45DF1F254C0FB10063FC57 /* LYRegisterProtocalController.xib in Resources */,
+				6B4EA0B825466C15006B3E9E /* LICENSE in Resources */,
+				6B127258254ECE1A008E26F2 /* LYMultiRegisterInfoView.xib in Resources */,
+				6BE6EE8A254FD66C00C31C83 /* LYMultiRegisterSuccessCell.xib in Resources */,
+				6B4EA0B525466C15006B3E9E /* LYDatePickerView.xib in Resources */,
+				6B4EA1C725466C37006B3E9E /* LYAccountManageController.xib in Resources */,
+				6B127278254F16A7008E26F2 /* LYMultiRegisterHeaderView.xib in Resources */,
+				6BC41EF625F0D272008D712A /* LYHomeMiddleItem1Cell.xib in Resources */,
+				6BA42A972554E36200B88B85 /* LYHomeIconCell.xib in Resources */,
+				6B28383C25F1CD08001E26AB /* LYHomeCjthCell.xib in Resources */,
+				6B3814F6256E41200026F2A7 /* LYYxbpYxttCell.xib in Resources */,
+				6B2F1E99256CA51F00747B25 /* LYYaojuhuiHeader.xib in Resources */,
+				6B4042EF2574942800252421 /* LYGoodsBannerCell.xib in Resources */,
+				6B2309CC2575C7A7003CFB53 /* LYGoodsTagCell.xib in Resources */,
+				6B4EA19325466C37006B3E9E /* LYModalSortLeftCell.xib in Resources */,
+				6BC41EFB25F0D4CE008D712A /* LYHomeMiddleItem2Cell.xib in Resources */,
+				6B8CE4C0255E6E1D0007BB76 /* LYHomeWntjCell.xib in Resources */,
+				6BF19F97256E3D3A0056AA15 /* LYYxbpBannerHeader.xib in Resources */,
+				6BA3A152255D10D500C27CF7 /* LYHomeMiddleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92D12661D191D4A5AFE79143 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87144CC9CD3C4EDF39FE9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LongYi_Swift/Pods-LongYi_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E17DF2C7CAA0B96C77358B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LongYi_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B19DF4025465BB8006F3EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4EA0C525466C15006B3E9E /* YSModal_direction.swift in Sources */,
+				6B127267254EE9C1008E26F2 /* LYAccountShopModel.swift in Sources */,
+				6B2309C52574D7BE003CFB53 /* LYGoodsGuigeCell.swift in Sources */,
+				6B4EA06825466BF4006B3E9E /* UIImageView+extension.swift in Sources */,
+				6B4EA18D25466C37006B3E9E /* LYModalCartView.swift in Sources */,
+				6B4EA1B725466C37006B3E9E /* LYCartController.swift in Sources */,
+				6B4EA06725466BF4006B3E9E /* Model+extension.swift in Sources */,
+				6B4EA19125466C37006B3E9E /* LYGoodsCategoryModel.swift in Sources */,
+				6B4EA0D125466C15006B3E9E /* YXPickerListCell.swift in Sources */,
+				6B4EA1C625466C37006B3E9E /* LYLoginController.swift in Sources */,
+				6B4EA04225466BDD006B3E9E /* API+Base.swift in Sources */,
+				6BACF628254EB6DB00951C57 /* LYMultiRegisterInfoViewModel.swift in Sources */,
+				6B4EA1B125466C37006B3E9E /* LYCartOrderConfirmCell.swift in Sources */,
+				6B682A872553983500E5EDBF /* LYHomeBannerView.swift in Sources */,
+				6BE4A35C25625519008B478F /* LYYjhNaviModel.swift in Sources */,
+				6B4EA0C125466C15006B3E9E /* YSBaseCell_colv.swift in Sources */,
+				6B4EA1C125466C37006B3E9E /* LYPaymentModel.swift in Sources */,
+				6BF735622547ADB800C2196A /* LYRegisterViewModel.swift in Sources */,
+				6B70B0A5255244F300A74F37 /* LYHomeNaviView.swift in Sources */,
+				6B4EA06B25466BF4006B3E9E /* UILabel+extension.swift in Sources */,
+				6BC5D831256DE71700823892 /* LYPpzqCell.swift in Sources */,
+				6B4EA06E25466BF4006B3E9E /* UIButton+Count.swift in Sources */,
+				6B4EA1D025466C37006B3E9E /* ErrorProtocal.swift in Sources */,
+				6BC41EF525F0D272008D712A /* LYHomeMiddleItem1Cell.swift in Sources */,
+				6B4EA0E325466C23006B3E9E /* UserPreference.swift in Sources */,
+				6B7FF65E255A7A97001E1124 /* BaseCollectionReusableView.swift in Sources */,
+				6B4EA0D725466C15006B3E9E /* YXPickerListView.swift in Sources */,
+				6B45DF0B254BFB530063FC57 /* LYRegisterSuccessController.swift in Sources */,
+				6B4EA1E025466C37006B3E9E /* LYOrderDetaiViewModel.swift in Sources */,
+				6B4EA0C425466C15006B3E9E /* YSModal_animator.swift in Sources */,
+				6B4042EE2574942800252421 /* LYGoodsBannerCell.swift in Sources */,
+				6B4EA0D425466C15006B3E9E /* YXCompatible.swift in Sources */,
+				6B4EA22C2546A371006B3E9E /* LYLaunchModel.swift in Sources */,
+				6B4EA1B825466C37006B3E9E /* LYCartCheckModel.swift in Sources */,
+				6B4EA25E2546CA4F006B3E9E /* LYRegisterView.swift in Sources */,
+				6BE4A31D25622411008B478F /* LYAccountManageViewModel.swift in Sources */,
+				6B4EA1C825466C37006B3E9E /* LYAccountManageController.swift in Sources */,
+				6BCC0E0225EE37E2009F5DB4 /* LYHomeMiaoshaHeader.swift in Sources */,
+				6B9CA09A2578C18C000A8802 /* LYModalQuanCell.swift in Sources */,
+				6B4EA1A525466C37006B3E9E /* LYGoodsController.swift in Sources */,
+				6BC5D835256DEB3500823892 /* LYPpzqViewModel.swift in Sources */,
+				6B4EA06025466BF4006B3E9E /* Int+extension.swift in Sources */,
+				6BF19F96256E3D3A0056AA15 /* LYYxbpBannerHeader.swift in Sources */,
+				6BC4A7522587003F00C09E16 /* LYSortController.swift in Sources */,
+				6BA3A151255D10D500C27CF7 /* LYHomeMiddleCell.swift in Sources */,
+				6BE4A35725624ADE008B478F /* LYHomeYjhFooter.swift in Sources */,
+				6B4E6FC525512C5C0040DE31 /* LYForgetPasswordViewModel.swift in Sources */,
+				6B4EA18425466C37006B3E9E /* LYHomeViewModel.swift in Sources */,
+				6B4EA1DA25466C37006B3E9E /* LYOrderSearchParameterModel.swift in Sources */,
+				6B4EA07125466BF4006B3E9E /* UIScrollView+extension.swift in Sources */,
+				6B4EA0B625466C15006B3E9E /* LYDatePickerView.swift in Sources */,
+				6B9CA09E2578C6FC000A8802 /* LYModalQuanViewModel.swift in Sources */,
+				6B28387525F2203D001E26AB /* LYHomeCjthGoodsCell.swift in Sources */,
+				6B88998D25EF76A200157FEA /* LYHomeMiaoshaItemCell.swift in Sources */,
+				6B4EA1C325466C37006B3E9E /* LYGoodsSearchParameterModel.swift in Sources */,
+				6B4EA19625466C37006B3E9E /* LYModalSortController.swift in Sources */,
+				6B4EA1BF25466C37006B3E9E /* LYGoodsImageModel.swift in Sources */,
+				6B4EA1D325466C37006B3E9E /* BaseViewModel.swift in Sources */,
+				6B4EA0DB25466C15006B3E9E /* LYAnnounceView.swift in Sources */,
+				6BC5D82C256DE6AB00823892 /* LYPpzqHeader.swift in Sources */,
+				6B4EA07325466BF4006B3E9E /* UIViewController+WL.swift in Sources */,
+				6B4EA04425466BDD006B3E9E /* API+Order.swift in Sources */,
+				6B4EA0CA25466C15006B3E9E /* Plist.swift in Sources */,
+				6BACF61E254EB60000951C57 /* LYMultiRegisterInfoController.swift in Sources */,
+				6B4EA1CC25466C37006B3E9E /* LYMineViewModel.swift in Sources */,
+				6B3814FA256E472D0026F2A7 /* LYYxbpNormalHeader.swift in Sources */,
+				6B4EA25A2546C996006B3E9E /* LYRegisterController.swift in Sources */,
+				6B4EA0BA25466C15006B3E9E /* YSLoadingIndicatorView.swift in Sources */,
+				6B2F1E9C256CA6BE00747B25 /* LYYaojuhuiViewModel.swift in Sources */,
+				6BA3A138255CCBA300C27CF7 /* LYHomeChoujiangCell.swift in Sources */,
+				6B4EA1A125466C37006B3E9E /* LYGoodsViewModel.swift in Sources */,
+				6BD4CC1925777664006B3555 /* LYGoodsDetailCell.swift in Sources */,
+				6BC41EFA25F0D4CE008D712A /* LYHomeMiddleItem2Cell.swift in Sources */,
+				6B4EA19725466C37006B3E9E /* LYGoodsSearchController.swift in Sources */,
+				6B4EA1EA25466C7C006B3E9E /* AppDelegate+Observer.swift in Sources */,
+				6B4EA1D525466C37006B3E9E /* BaseNavigationController.swift in Sources */,
+				6B4EA0DD25466C15006B3E9E /* OpenCameraAndAlbum.swift in Sources */,
+				6B4EA0C625466C15006B3E9E /* YSModal_presentingVC.swift in Sources */,
+				6B4E6FBC255128F20040DE31 /* LYForgetPasswordController.swift in Sources */,
+				6B4EA06C25466BF4006B3E9E /* UIButton+extension.swift in Sources */,
+				6B4EA1C425466C37006B3E9E /* LYLoginViewModel.swift in Sources */,
+				6B4EA07425466BF4006B3E9E /* UITableView+extension.swift in Sources */,
+				6B4EA06125466BF4006B3E9E /* Date+extension.swift in Sources */,
+				6BC5D842256DF72600823892 /* LYYxbpViewModel.swift in Sources */,
+				6B691E56255A8EA200924FBB /* LYHomeLYZXIconCell.swift in Sources */,
+				6BC5D83F256DF71400823892 /* LYYxbpView.swift in Sources */,
+				6B4EA06D25466BF4006B3E9E /* UIView+extension.swift in Sources */,
+				6B4EA0BC25466C15006B3E9E /* YSBaseV_loadingIndicator.swift in Sources */,
+				6B4EA1D925466C37006B3E9E /* LYOrderGoodModel.swift in Sources */,
+				6B4EA0B725466C15006B3E9E /* YSModal_presentedNavC.swift in Sources */,
+				6B4EA0BD25466C15006B3E9E /* YSBaseVC.swift in Sources */,
+				6B4EA1D225466C37006B3E9E /* BaseTableViewCell.swift in Sources */,
+				6B4EA0DA25466C15006B3E9E /* Marquee.swift in Sources */,
+				6B6C44DF254ABBEA009D4A54 /* LYRegisterInfoController.swift in Sources */,
+				6BD4CC2425778387006B3555 /* LYGoodsTuijianItemCell.swift in Sources */,
+				6BA42AC52554F65300B88B85 /* LYHomeNormalHeader.swift in Sources */,
+				6B4EA06625466BF4006B3E9E /* File+extension.swift in Sources */,
+				6B4EA0D225466C15006B3E9E /* YXPickerTitleCell.swift in Sources */,
+				6B4EA1D425466C37006B3E9E /* BaseCollectionViewCell.swift in Sources */,
+				6B4EA07025466BF4006B3E9E /* UIBarButtonItem+extension.swift in Sources */,
+				6B8CE4BA255E6C570007BB76 /* LYHomeWntjHeader.swift in Sources */,
+				6B4EA1BA25466C37006B3E9E /* LYCartCell.swift in Sources */,
+				6B4EA0D525466C15006B3E9E /* YXPickerTitleView.swift in Sources */,
+				6B4042EA2574847300252421 /* LYGoodsView.swift in Sources */,
+				6BC5D827256DE49400823892 /* LYPpzqView.swift in Sources */,
+				6B127263254EDF0C008E26F2 /* LYMultiRegisterInfoCell.swift in Sources */,
+				6BD4CC11257768C3006B3555 /* LYGoodsDetailView.swift in Sources */,
+				6B12726D254F15DD008E26F2 /* LYMultiRegisterSuccessController.swift in Sources */,
+				6B4EA1C225466C37006B3E9E /* LYClientModel.swift in Sources */,
+				6B4EA1D825466C37006B3E9E /* LYOrderModel.swift in Sources */,
+				6B2F1E98256CA51F00747B25 /* LYYaojuhuiHeader.swift in Sources */,
+				6B4EA0C225466C15006B3E9E /* YSBaseCell_tbv_default.swift in Sources */,
+				6BDA620E2565055400D385F5 /* LYCouponModel.swift in Sources */,
+				6B127255254ECE07008E26F2 /* LYMultiRegisterInfoView.swift in Sources */,
+				6B4EA1D625466C37006B3E9E /* LYTabBarController.swift in Sources */,
+				6B4EA03125466BC1006B3E9E /* LYNotificationName.swift in Sources */,
+				6B4EA04125466BDD006B3E9E /* API+MapObject.swift in Sources */,
+				6BC5D845256DFA9A00823892 /* LYYxbpAdModel.swift in Sources */,
+				6BA3A156255D145700C27CF7 /* LYHomeYjhHeader.swift in Sources */,
+				6B4EA0CE25466C15006B3E9E /* ExpandClickButton.swift in Sources */,
+				6B4EA0B425466C15006B3E9E /* MBProgressHUD.swift in Sources */,
+				6B70B0A22552437500A74F37 /* LYHomeView.swift in Sources */,
+				6B88998425EF5D3900157FEA /* CountDown.m in Sources */,
+				6B4E6FD125514B960040DE31 /* LYForgetPasswordSuccessController.swift in Sources */,
+				6BE6EE89254FD66C00C31C83 /* LYMultiRegisterSuccessCell.swift in Sources */,
+				6B4EA18E25466C37006B3E9E /* LYModalCartController.swift in Sources */,
+				6B4EA1AD25466C37006B3E9E /* LYCartOrderConfirmViewModel.swift in Sources */,
+				6B45DF24254C10980063FC57 /* LYRegisterProtocalViewModel.swift in Sources */,
+				6BDA620B2565041D00D385F5 /* LYPayModel.swift in Sources */,
+				6B88998825EF6B8800157FEA /* LYHomeMiaoshaCell.swift in Sources */,
+				6B4EA1BE25466C37006B3E9E /* LYGoodsTagModel.swift in Sources */,
+				6B1B4B9B2579CB2700663C68 /* LYAddCartParameterModel.swift in Sources */,
+				6B4EA0CD25466C15006B3E9E /* HeaderLoading.swift in Sources */,
+				6B4EA06F25466BF4006B3E9E /* UIImage+extension.swift in Sources */,
+				6BDA62082564F7E600D385F5 /* API+Quan.swift in Sources */,
+				6BE6EE8D254FEFC600C31C83 /* LYLoginView.swift in Sources */,
+				6B4EA0BF25466C15006B3E9E /* YSBaseCell_tbv_value2.swift in Sources */,
+				6B4EA0E425466C23006B3E9E /* UserModel.swift in Sources */,
+				6B127275254F1698008E26F2 /* LYMultiRegisterHeaderView.swift in Sources */,
+				6B4EA1CB25466C37006B3E9E /* LYMineModifyPasswordController.swift in Sources */,
+				6B8CE4BF255E6E1D0007BB76 /* LYHomeWntjCell.swift in Sources */,
+				6B4EA0D025466C15006B3E9E /* YXCityModel.swift in Sources */,
+				6B4EA05F25466BF4006B3E9E /* Common+Functions.swift in Sources */,
+				6B4EA1DC25466C37006B3E9E /* LYOrderCell.swift in Sources */,
+				6B682A982553E55E00E5EDBF /* BaseWebViewController.swift in Sources */,
+				6B4EA07225466BF4006B3E9E /* UITextField+extension.swift in Sources */,
+				6B6C4489254AB0B7009D4A54 /* LYRegisterInfoView.swift in Sources */,
+				6B2309CB2575C7A7003CFB53 /* LYGoodsTagCell.swift in Sources */,
+				6B4EA06325466BF4006B3E9E /* String+BankName.swift in Sources */,
+				6B4EA03325466BC1006B3E9E /* ImportFiles.swift in Sources */,
+				6B45DEEC254BB00F0063FC57 /* LYAccountModel.swift in Sources */,
+				6B4EA1AE25466C37006B3E9E /* LYCartOrderCommitModel.swift in Sources */,
+				6B28386725F21D6C001E26AB /* LYHomeCjthGoodsItemCell.swift in Sources */,
+				6B3814F5256E41200026F2A7 /* LYYxbpYxttCell.swift in Sources */,
+				6B19DF4825465BB8006F3EE3 /* AppDelegate.swift in Sources */,
+				6B45DF27254C12BB0063FC57 /* API+NewsCenter.swift in Sources */,
+				6B4EA1CE25466C37006B3E9E /* LYMineController.swift in Sources */,
+				6B4EA1BD25466C37006B3E9E /* LYAddressModel.swift in Sources */,
+				6B4EA1E125466C37006B3E9E /* LYOrderDetailController.swift in Sources */,
+				6B4EA03E25466BDD006B3E9E /* API+Cart.swift in Sources */,
+				6BDA62002564CF6E00D385F5 /* LYH5ActivityController.swift in Sources */,
+				6B4EA1E625466C37006B3E9E /* LYOrderDetailGoodsListCell.swift in Sources */,
+				6B4EA18F25466C37006B3E9E /* LYModalSortCategoryViewModel.swift in Sources */,
+				6BE4A38125626E6B008B478F /* LYHomeYjhCell.swift in Sources */,
+				6B4EA1B425466C37006B3E9E /* LYCartOrderConfirmController.swift in Sources */,
+				6B4E6FD425514BAD0040DE31 /* LYForgetPasswordSuccessView.swift in Sources */,
+				6B682A8A2553AA6500E5EDBF /* LYHomeADModel.swift in Sources */,
+				6B4EA0C825466C15006B3E9E /* DefaultKeys.swift in Sources */,
+				6B2309E52575EA3C003CFB53 /* LYGoodsQuanCell.swift in Sources */,
+				6B45DF17254BFF970063FC57 /* LYRegisterSuccessViewModel.swift in Sources */,
+				6B4EA04325466BDD006B3E9E /* API+User.swift in Sources */,
+				6B4EA06A25466BF4006B3E9E /* UIWindow+extension.swift in Sources */,
+				6B4EA1B225466C37006B3E9E /* LYCartOrderConfirmFooter.swift in Sources */,
+				6B8CE4B2255E5CD40007BB76 /* LYHomePpzqIconCell.swift in Sources */,
+				6B4EA0C925466C15006B3E9E /* PlistProperty.swift in Sources */,
+				6B8CE4AD255E591E0007BB76 /* LYHomePpzqCell.swift in Sources */,
+				6B7FF667255A8852001E1124 /* LYHomeLYZXCell.swift in Sources */,
+				6B9CA07E25787604000A8802 /* LYModalQuanController.swift in Sources */,
+				6B4EA0C325466C15006B3E9E /* YSBaseCell_tbv_value1.swift in Sources */,
+				6BDA62042564EED400D385F5 /* LYH5ActivityViewModel.swift in Sources */,
+				6B4EA1D125466C37006B3E9E /* BaseViewController.swift in Sources */,
+				6B4EA0BE25466C15006B3E9E /* YSBaseCell_tbv_subtitle.swift in Sources */,
+				6BD4CC1F257781AA006B3555 /* LYGoodsTuijianCell.swift in Sources */,
+				6B4EA18B25466C37006B3E9E /* LYModalCartViewModel.swift in Sources */,
+				6B45DF0F254BFB940063FC57 /* LYRegisterSuccessView.swift in Sources */,
+				6BC5D822256DE47B00823892 /* LYPpzqController.swift in Sources */,
+				6B127271254F162A008E26F2 /* LYMultiRegisterSuccessViewModel.swift in Sources */,
+				6B682A8D2553AC0C00E5EDBF /* API+Home.swift in Sources */,
+				6B4EA1CD25466C37006B3E9E /* LYMineOrderHeaderModel.swift in Sources */,
+				6B2F1E71256C970600747B25 /* LYYaojuhuiController.swift in Sources */,
+				6B4EA1BC25466C37006B3E9E /* LYCartOrderSuccessController.swift in Sources */,
+				6B4EA1B525466C37006B3E9E /* LYCartViewModel.swift in Sources */,
+				6B4EA03225466BC1006B3E9E /* Constant.swift in Sources */,
+				6B12727B254F16D7008E26F2 /* LYMultiRegisterFooterView.swift in Sources */,
+				6B3814FF256E55F80026F2A7 /* LYYxbpYxtjCell.swift in Sources */,
+				6BC4A7562587009400C09E16 /* LYSortView.swift in Sources */,
+				6B4EA0D625466C15006B3E9E /* UIView-Extension.swift in Sources */,
+				6B4EA0CF25466C15006B3E9E /* SortButton.swift in Sources */,
+				6B4EA04525466BDD006B3E9E /* API+Goods.swift in Sources */,
+				6BC5D83B256DF5BD00823892 /* LYYxbpController.swift in Sources */,
+				6B4E6FC825513E9E0040DE31 /* LYForgetPasswordSetController.swift in Sources */,
+				6B4EA1DE25466C37006B3E9E /* LYOrderSelectSearchView.swift in Sources */,
+				6B4E6FBF255129190040DE31 /* LYForgetPasswordView.swift in Sources */,
+				6BA42A962554E36200B88B85 /* LYHomeIconCell.swift in Sources */,
+				6B4EA19225466C37006B3E9E /* LYModalSortRightCell.swift in Sources */,
+				6B8CE4B6255E62280007BB76 /* LYBrandModel.swift in Sources */,
+				6B4EA0DE25466C15006B3E9E /* LYAddMinusView.swift in Sources */,
+				6B4EA18325466C37006B3E9E /* LYHomeController.swift in Sources */,
+				6B4EA1C925466C37006B3E9E /* LYMineModifyPasswordViewModel.swift in Sources */,
+				6B28386225F2151F001E26AB /* LYHomeRoundHeader.swift in Sources */,
+				6B28385D25F209C4001E26AB /* LYHomeNormalFooter.swift in Sources */,
+				6B4EA0C025466C15006B3E9E /* YSBaseCell_colv_headerFooter.swift in Sources */,
+				6B4EA06525466BF4006B3E9E /* GCD+extension.swift in Sources */,
+				6BACF5DF254EA7E800951C57 /* LYWeChatAuthModel.swift in Sources */,
+				6BC4A75C2587140700C09E16 /* LYSortViewModel.swift in Sources */,
+				6B4EA1C025466C37006B3E9E /* LYGoodsModel.swift in Sources */,
+				6B45DEE8254BAD450063FC57 /* LYRegisterInfoViewModel.swift in Sources */,
+				6B4EA1E525466C37006B3E9E /* LYOrderDetailInfoFooter.swift in Sources */,
+				6B2F1E78256C98B500747B25 /* LYYaojuhuiView.swift in Sources */,
+				6B381504256E59B30026F2A7 /* LYYxbpMoreYxCell.swift in Sources */,
+				6B4EA06225466BF4006B3E9E /* Optional+extension.swift in Sources */,
+				6B4E6FCB25513EB20040DE31 /* LYForgetPasswordSetView.swift in Sources */,
+				6B28383B25F1CD08001E26AB /* LYHomeCjthCell.swift in Sources */,
+				6B4EA0C725466C15006B3E9E /* YSModal_presentedVC.swift in Sources */,
+				6B4EA1E425466C37006B3E9E /* LYOrderDetaiInfoHeader.swift in Sources */,
+				6B4EA0D925466C15006B3E9E /* YXChooseView.swift in Sources */,
+				6B45DF1E254C0FB10063FC57 /* LYRegisterProtocalController.swift in Sources */,
+				6B4EA04025466BDD006B3E9E /* LYRequestError.swift in Sources */,
+				6BCC0DFE25EE2C67009F5DB4 /* LYMiaoshaModel.swift in Sources */,
+				6B4EA1A425466C37006B3E9E /* LYGoodsCartView.swift in Sources */,
+				6BACF5B0254E4A0D00951C57 /* LYPostDetailModel.swift in Sources */,
+				6B4EA1DF25466C37006B3E9E /* LYOrderController.swift in Sources */,
+				6B4EA0BB25466C15006B3E9E /* YSLoadingIndicatorView_default.swift in Sources */,
+				6B4EA0DC25466C15006B3E9E /* QRCodeScannerController.swift in Sources */,
+				6B4EA06925466BF4006B3E9E /* UIFont+extension.swift in Sources */,
+				6B9CA08225787671000A8802 /* LYModalQuanView.swift in Sources */,
+				6B4EA19525466C37006B3E9E /* LYModalSortLeftCell.swift in Sources */,
+				6B4EA0CC25466C15006B3E9E /* RefreshHeader.swift in Sources */,
+				6B230A1F257618B9003CFB53 /* LYGoodsQuanItemCell.swift in Sources */,
+				6B4EA1D725466C37006B3E9E /* LYOrderViewModel.swift in Sources */,
+				6B4EA06425466BF4006B3E9E /* String+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B19DF5225465BBA006F3EE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B19DF5325465BBA006F3EE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B19DF5625465BBA006F3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B19DF5725465BBA006F3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B19DF5925465BBA006F3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0FC988DC98C2036E0F50E1 /* Pods-LongYi_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LongYi_Swift/LongYi_Swift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP37V676HJ;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				INFOPLIST_FILE = LongYi_Swift/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoxiaomeng.longyiyiyao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LongYi_Swift/Support/LongYi_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B19DF5A25465BBA006F3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AEB002E40A24951D63C233 /* Pods-LongYi_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LongYi_Swift/LongYi_Swift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP37V676HJ;
+				INFOPLIST_FILE = LongYi_Swift/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoxiaomeng.longyiyiyao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LongYi_Swift/Support/LongYi_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B19DF3F25465BB8006F3EE3 /* Build configuration list for PBXProject "LongYi_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B19DF5625465BBA006F3EE3 /* Debug */,
+				6B19DF5725465BBA006F3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B19DF5825465BBA006F3EE3 /* Build configuration list for PBXNativeTarget "LongYi_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B19DF5925465BBA006F3EE3 /* Debug */,
+				6B19DF5A25465BBA006F3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B19DF3C25465BB8006F3EE3 /* Project object */;
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Sof-G2-Lfw" customClass="LYYxbpYxttCell" customModule="LongYi_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="188" height="289"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="188" height="289"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LUf-j6-GzY">
+                        <rect key="frame" x="0.0" y="0.0" width="188" height="144.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_yxbp_优选特推" translatesAutoresizingMaskIntoConstraints="NO" id="xSx-G3-1t5">
+                        <rect key="frame" x="12" y="8" width="18" height="23"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yfz-c1-kGj">
+                        <rect key="frame" x="12" y="149.5" width="164" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="桂林西瓜霜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieN-Xe-HOz">
+                                <rect key="frame" x="0.0" y="0.0" width="46" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都啊打算的按时公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgO-XZ-fay">
+                                <rect key="frame" x="0.0" y="16" width="72" height="8.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="规格：XXX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idQ-M2-LBA">
+                                <rect key="frame" x="0.0" y="29.5" width="36.5" height="8.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tlB-CN-YoL">
+                                <rect key="frame" x="0.0" y="43" width="63.5" height="11"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 99.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWK-n8-Et5">
+                                        <rect key="frame" x="0.0" y="0.0" width="34.5" height="11"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="textColor" red="1" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 99.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0Q-Ju-CaU">
+                                        <rect key="frame" x="39.5" y="0.0" width="24" height="11"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-To-1aU">
+                        <rect key="frame" x="46" y="208.5" width="96" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="4Zz-gZ-3Hw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="立即购买" backgroundImage="home_yxbp_button1">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="VR9-7x-psr"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LUf-j6-GzY" secondAttribute="trailing" id="0CS-BD-eBU"/>
+                <constraint firstItem="xSx-G3-1t5" firstAttribute="top" secondItem="Sof-G2-Lfw" secondAttribute="top" constant="8" id="B8k-ix-6Ul"/>
+                <constraint firstAttribute="trailing" secondItem="yfz-c1-kGj" secondAttribute="trailing" constant="12" id="EwL-0S-Ms2"/>
+                <constraint firstItem="xSx-G3-1t5" firstAttribute="leading" secondItem="Sof-G2-Lfw" secondAttribute="leading" constant="12" id="LhR-o0-laz"/>
+                <constraint firstItem="LUf-j6-GzY" firstAttribute="height" secondItem="Sof-G2-Lfw" secondAttribute="height" multiplier="0.5" id="Pyr-gB-uFt"/>
+                <constraint firstItem="LUf-j6-GzY" firstAttribute="top" secondItem="Sof-G2-Lfw" secondAttribute="top" id="YDg-bg-s57"/>
+                <constraint firstItem="yfz-c1-kGj" firstAttribute="leading" secondItem="Sof-G2-Lfw" secondAttribute="leading" constant="12" id="Zla-D1-eAu"/>
+                <constraint firstItem="RiD-To-1aU" firstAttribute="top" secondItem="yfz-c1-kGj" secondAttribute="bottom" constant="5" id="ik5-Ah-fkE"/>
+                <constraint firstItem="RiD-To-1aU" firstAttribute="centerX" secondItem="Sof-G2-Lfw" secondAttribute="centerX" id="jjq-vo-RMX"/>
+                <constraint firstItem="yfz-c1-kGj" firstAttribute="top" secondItem="LUf-j6-GzY" secondAttribute="bottom" constant="5" id="o3H-zi-Zsl"/>
+                <constraint firstItem="LUf-j6-GzY" firstAttribute="leading" secondItem="Sof-G2-Lfw" secondAttribute="leading" id="vrK-Gm-RUC"/>
+            </constraints>
+            <size key="customSize" width="188" height="289"/>
+            <connections>
+                <outlet property="buyButton" destination="RiD-To-1aU" id="Kv3-Cw-A8L"/>
+                <outlet property="companyLabel" destination="GgO-XZ-fay" id="sgb-ew-B55"/>
+                <outlet property="cpggLabel" destination="idQ-M2-LBA" id="PMn-am-Uoz"/>
+                <outlet property="icon" destination="LUf-j6-GzY" id="pu4-zX-j72"/>
+                <outlet property="nameLabel" destination="ieN-Xe-HOz" id="bHQ-jN-HrC"/>
+                <outlet property="oldPriceLabel" destination="k0Q-Ju-CaU" id="v11-4o-MJs"/>
+                <outlet property="priceLabel" destination="NWK-n8-Et5" id="NM2-2V-6fI"/>
+            </connections>
+            <point key="canvasLocation" x="-131.8840579710145" y="179.79910714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_yxbp_button1" width="96" height="13"/>
+        <image name="home_yxbp_优选特推" width="18" height="23"/>
+    </resources>
+</document>

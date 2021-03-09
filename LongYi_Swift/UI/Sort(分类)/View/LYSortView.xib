@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dga-Gu-UcX" customClass="LYSortView" customModule="LongYi_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fqz-iY-hsv">
+                    <rect key="frame" x="0.0" y="94" width="100" height="802"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="O40-C1-Ohl"/>
+                    </constraints>
+                </tableView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pqC-oi-kl6">
+                    <rect key="frame" x="100" y="94" width="314" height="802"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2Im-bx-OB3">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1H-dR-QBn">
+                    <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="药品搜索" translatesAutoresizingMaskIntoConstraints="NO" id="qdh-3c-1rf">
+                            <rect key="frame" x="8" y="-3" width="398" height="56"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="qdh-3c-1rf" firstAttribute="leading" secondItem="I1H-dR-QBn" secondAttribute="leading" constant="8" id="1Zc-eI-r9N"/>
+                        <constraint firstItem="qdh-3c-1rf" firstAttribute="centerY" secondItem="I1H-dR-QBn" secondAttribute="centerY" id="Bxy-ff-J27"/>
+                        <constraint firstAttribute="trailing" secondItem="qdh-3c-1rf" secondAttribute="trailing" constant="8" id="cMy-0W-Mkh"/>
+                        <constraint firstAttribute="height" constant="50" id="n8V-yC-bhL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fOo-FR-pMJ"/>
+            <constraints>
+                <constraint firstItem="fOo-FR-pMJ" firstAttribute="trailing" secondItem="I1H-dR-QBn" secondAttribute="trailing" id="0ls-eD-WOx"/>
+                <constraint firstAttribute="bottom" secondItem="pqC-oi-kl6" secondAttribute="bottom" id="1uZ-qT-Cpo"/>
+                <constraint firstItem="I1H-dR-QBn" firstAttribute="leading" secondItem="fOo-FR-pMJ" secondAttribute="leading" id="PFH-eI-Zhx"/>
+                <constraint firstItem="fOo-FR-pMJ" firstAttribute="trailing" secondItem="pqC-oi-kl6" secondAttribute="trailing" id="RUa-aS-uto"/>
+                <constraint firstItem="Fqz-iY-hsv" firstAttribute="leading" secondItem="fOo-FR-pMJ" secondAttribute="leading" id="hpo-fJ-7m5"/>
+                <constraint firstItem="Fqz-iY-hsv" firstAttribute="top" secondItem="I1H-dR-QBn" secondAttribute="bottom" id="jNM-tY-kJP"/>
+                <constraint firstAttribute="bottom" secondItem="Fqz-iY-hsv" secondAttribute="bottom" id="p6o-dr-s3i"/>
+                <constraint firstItem="I1H-dR-QBn" firstAttribute="top" secondItem="fOo-FR-pMJ" secondAttribute="top" id="u5e-Bf-hBi"/>
+                <constraint firstItem="pqC-oi-kl6" firstAttribute="top" secondItem="I1H-dR-QBn" secondAttribute="bottom" id="x49-Yu-Q8h"/>
+                <constraint firstItem="pqC-oi-kl6" firstAttribute="leading" secondItem="Fqz-iY-hsv" secondAttribute="trailing" id="xPY-fq-z1X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="pqC-oi-kl6" id="ruV-vC-s83"/>
+                <outlet property="searchBar" destination="qdh-3c-1rf" id="fBV-qH-K3c"/>
+                <outlet property="tableView" destination="Fqz-iY-hsv" id="iZZ-OE-7hF"/>
+            </connections>
+            <point key="canvasLocation" x="241" y="42"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

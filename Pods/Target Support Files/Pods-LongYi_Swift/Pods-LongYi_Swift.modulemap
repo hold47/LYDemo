@@ -1,0 +1,6 @@
+framework module Pods_LongYi_Swift {
+  umbrella header "Pods-LongYi_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

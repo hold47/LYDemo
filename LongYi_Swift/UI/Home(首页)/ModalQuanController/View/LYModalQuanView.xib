@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rsb-0o-B5X" customClass="LYModalQuanView" customModule="LongYi_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="526"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可享优惠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCA-X6-eRj">
+                    <rect key="frame" x="170" y="10" width="74" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可领取优惠券" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1b-dM-MlJ">
+                    <rect key="frame" x="8" y="44" width="86" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HuV-aG-akM">
+                    <rect key="frame" x="8" y="73" width="398" height="315"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="315" id="9EK-pD-Nh1"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeU-nm-CXK">
+                    <rect key="frame" x="8" y="400" width="398" height="44"/>
+                    <color key="backgroundColor" red="0.13333333333333333" green="0.65490196078431373" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="080-ZX-Jzr"/>
+                    </constraints>
+                    <state key="normal" title="一键领取">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="KZ8-EM-uda"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KZ8-EM-uda" firstAttribute="trailing" secondItem="VeU-nm-CXK" secondAttribute="trailing" constant="8" id="Btg-Gk-upZ"/>
+                <constraint firstItem="xCA-X6-eRj" firstAttribute="top" secondItem="rsb-0o-B5X" secondAttribute="top" constant="10" id="Cxk-3g-pXS"/>
+                <constraint firstItem="KZ8-EM-uda" firstAttribute="trailing" secondItem="HuV-aG-akM" secondAttribute="trailing" constant="8" id="G7d-c7-aCc"/>
+                <constraint firstItem="HuV-aG-akM" firstAttribute="top" secondItem="u1b-dM-MlJ" secondAttribute="bottom" constant="12" id="Jqy-fy-rir"/>
+                <constraint firstItem="VeU-nm-CXK" firstAttribute="leading" secondItem="KZ8-EM-uda" secondAttribute="leading" constant="8" id="PTq-rn-G5w"/>
+                <constraint firstItem="VeU-nm-CXK" firstAttribute="top" secondItem="HuV-aG-akM" secondAttribute="bottom" constant="12" id="SJ4-6Q-iIK"/>
+                <constraint firstItem="xCA-X6-eRj" firstAttribute="centerX" secondItem="rsb-0o-B5X" secondAttribute="centerX" id="SQ2-dn-M7N"/>
+                <constraint firstItem="u1b-dM-MlJ" firstAttribute="top" secondItem="xCA-X6-eRj" secondAttribute="bottom" constant="12" id="Y2b-Jh-bYf"/>
+                <constraint firstItem="u1b-dM-MlJ" firstAttribute="leading" secondItem="KZ8-EM-uda" secondAttribute="leading" constant="8" id="eoa-3c-ScY"/>
+                <constraint firstItem="HuV-aG-akM" firstAttribute="leading" secondItem="KZ8-EM-uda" secondAttribute="leading" constant="8" id="tG2-Um-1AE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="countLabel" destination="u1b-dM-MlJ" id="kQM-Sw-ySl"/>
+                <outlet property="getButton" destination="VeU-nm-CXK" id="W6Z-Lk-uLa"/>
+                <outlet property="tableView" destination="HuV-aG-akM" id="HgE-hy-7JE"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="-80.357142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

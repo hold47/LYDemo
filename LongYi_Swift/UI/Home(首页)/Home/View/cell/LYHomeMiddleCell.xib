@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ajr-RN-aNN" customClass="LYHomeMiddleCell" customModule="LongYi_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="235" height="201"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="201"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地道药材 每周精选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlB-v1-lfP">
+                        <rect key="frame" x="82" y="4.5" width="68" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="XqC-cY-dGE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" red="0.56078431370000004" green="0.18039215689999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-Y0-Tzb">
+                        <rect key="frame" x="10" y="32" width="215" height="169"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5h2-Zf-zFN">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuP-Ev-12N">
+                        <rect key="frame" x="12" y="-5" width="66" height="32"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <state key="normal" title="中药专区">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickNameButton:" destination="ajr-RN-aNN" eventType="touchUpInside" id="cMg-k5-FYu"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="Te9-8F-93K"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="X3D-Y0-Tzb" firstAttribute="leading" secondItem="ajr-RN-aNN" secondAttribute="leading" constant="10" id="5rs-fU-VpE"/>
+                <constraint firstItem="wuP-Ev-12N" firstAttribute="leading" secondItem="ajr-RN-aNN" secondAttribute="leading" constant="12" id="OMX-sk-3aK"/>
+                <constraint firstAttribute="trailing" secondItem="X3D-Y0-Tzb" secondAttribute="trailing" constant="10" id="SOx-GS-ZhI"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WlB-v1-lfP" secondAttribute="trailing" constant="10" id="cqG-C2-x9i"/>
+                <constraint firstItem="X3D-Y0-Tzb" firstAttribute="top" secondItem="wuP-Ev-12N" secondAttribute="bottom" constant="5" id="ehT-F3-WyU"/>
+                <constraint firstAttribute="bottom" secondItem="X3D-Y0-Tzb" secondAttribute="bottom" id="fGP-G2-j8t"/>
+                <constraint firstItem="wuP-Ev-12N" firstAttribute="top" secondItem="ajr-RN-aNN" secondAttribute="top" constant="-5" id="fQS-sf-YY6"/>
+                <constraint firstItem="WlB-v1-lfP" firstAttribute="centerY" secondItem="wuP-Ev-12N" secondAttribute="centerY" id="h3S-kg-NtU"/>
+                <constraint firstItem="WlB-v1-lfP" firstAttribute="leading" secondItem="wuP-Ev-12N" secondAttribute="trailing" constant="4" id="oP1-E6-0zJ"/>
+            </constraints>
+            <size key="customSize" width="235" height="201"/>
+            <connections>
+                <outlet property="collectionView" destination="X3D-Y0-Tzb" id="c2v-zu-BpW"/>
+                <outlet property="desLabel" destination="WlB-v1-lfP" id="SKK-Gx-r1u"/>
+                <outlet property="layout" destination="5h2-Zf-zFN" id="7mU-Ph-3z6"/>
+                <outlet property="nameButton" destination="wuP-Ev-12N" id="XDO-z4-yAx"/>
+            </connections>
+            <point key="canvasLocation" x="171.73913043478262" y="122.20982142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
